@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<BaseGameText>
+		<!-- Better Governors -->
+		<Row Tag="LOC_NAME_DB_GOVERNOR_DEFENSE"><Text>Gustav</Text></Row>
+		<Row Tag="LOC_NAME_DB_GOVERNOR_CULTURE"><Text>Kalilah</Text></Row>
+		<Row Tag="LOC_NAME_DB_GOVERNOR_RELIGION"><Text>Pius</Text></Row>
+		<Row Tag="LOC_NAME_DB_GOVERNOR_HARVEST"><Text>Anders</Text></Row>
+		<Row Tag="LOC_NAME_DB_GOVERNOR_BUILDERS"><Text>Xin</Text></Row>
+		<Row Tag="LOC_NAME_DB_GOVERNOR_SCIENCE"><Text>Aadhish</Text></Row>
+		<Row Tag="LOC_NAME_DB_GOVERNOR_GROWTH"><Text>Estrella</Text></Row>
+		<Row Tag="LOC_NAME_DB_GOVERNOR_MILITARY"><Text>Akeem</Text></Row>
+
+		<Row Tag="LOC_DESC_DB_GOVERNOR_DEFENSE"><Text>{LOC_NAME_DB_GOVERNOR_DEFENSE} helps your city build walls and defend against invaders.</Text></Row>
+		<Row Tag="LOC_DESC_DB_GOVERNOR_CULTURE"><Text>{LOC_NAME_DB_GOVERNOR_CULTURE} enhances your city's [ICON_Culture]Culture.</Text></Row>
+		<Row Tag="LOC_DESC_DB_GOVERNOR_RELIGION"><Text>{LOC_NAME_DB_GOVERNOR_RELIGION} enhances your city's religion.</Text></Row>
+		<Row Tag="LOC_DESC_DB_GOVERNOR_HARVEST"><Text>{LOC_NAME_DB_GOVERNOR_HARVEST} helps make things quickly.</Text></Row>
+		<Row Tag="LOC_DESC_DB_GOVERNOR_BUILDERS"><Text>{LOC_NAME_DB_GOVERNOR_BUILDERS} enhances your city's Builders.</Text></Row>
+		<Row Tag="LOC_DESC_DB_GOVERNOR_SCIENCE"><Text>{LOC_NAME_DB_GOVERNOR_SCIENCE} enhances your city's [ICON_Science]Science.</Text></Row>
+		<Row Tag="LOC_DESC_DB_GOVERNOR_GROWTH"><Text>{LOC_NAME_DB_GOVERNOR_GROWTH} helps your city grow, especially when it's just starting.</Text></Row>
+		<Row Tag="LOC_DESC_DB_GOVERNOR_MILITARY"><Text>{LOC_NAME_DB_GOVERNOR_MILITARY} creates strong military units.</Text></Row>
+
+		<Row Tag="LOC_TITLE_DB_GOVERNOR_DEFENSE"><Text>Defense</Text></Row>
+		<Row Tag="LOC_TITLE_DB_GOVERNOR_CULTURE"><Text>Culture</Text></Row>
+		<Row Tag="LOC_TITLE_DB_GOVERNOR_RELIGION"><Text>Religion</Text></Row>
+		<Row Tag="LOC_TITLE_DB_GOVERNOR_HARVEST"><Text>Harvest</Text></Row>
+		<Row Tag="LOC_TITLE_DB_GOVERNOR_BUILDERS"><Text>Builders</Text></Row>
+		<Row Tag="LOC_TITLE_DB_GOVERNOR_SCIENCE"><Text>Science</Text></Row>
+		<Row Tag="LOC_TITLE_DB_GOVERNOR_GROWTH"><Text>Growth</Text></Row>
+		<Row Tag="LOC_TITLE_DB_GOVERNOR_MILITARY"><Text>Military</Text></Row>
+
+		<Row Tag="LOC_NAME_DB_GOV_PROMOTION_BASE_DEFENSE"><Text>{LOC_NAME_DB_GOVERNOR_DEFENSE}</Text></Row>
+		<Row Tag="LOC_DESC_DB_GOV_PROMOTION_BASE_DEFENSE"><Text>City and Encampment cannot be put under sieges; immune to battering rams and siege towers.</Text></Row>
+		
+		<Row Tag="LOC_NAME_DB_GOV_PROMOTION_GARRISON_STRENGTH"><Text>Redoubt</Text></Row>
+		<Row Tag="LOC_DESC_DB_GOV_PROMOTION_GARRISON_STRENGTH"><Text>City and Encampment gain +10[ICON_Strength]Combat Strength on defense.</Text></Row>
+
+		<Row Tag="LOC_NAME_DB_GOV_PROMOTION_CITY_RANGED_STRIKE_STRENGTH"><Text>Target Practice</Text></Row>
+		<Row Tag="LOC_DESC_DB_GOV_PROMOTION_CITY_RANGED_STRIKE_STRENGTH"><Text>City and Encampment ranged attacks get +10[ICON_Strength]Combat Strength.</Text></Row>
+		
+		<Row Tag="LOC_NAME_DB_GOV_PROMOTION_CITY_RANGED_STRIKE_RANGE"><Text>Trigonometry</Text></Row>
+		<Row Tag="LOC_DESC_DB_GOV_PROMOTION_CITY_RANGED_STRIKE_RANGE"><Text>City and Encampment ranged attacks get an additional [ICON_Range]Range. (Ancient Walls get an attack.)</Text></Row>
+
+		
+		<Row Tag="LOC_NAME_DB_GOV_PROMOTION_BASE_CULTURE"><Text>{LOC_NAME_DB_GOVERNOR_CULTURE}</Text></Row>
+		<Row Tag="LOC_DESC_DB_GOV_PROMOTION_BASE_CULTURE"><Text>+3[ICON_Culture]Culture.</Text></Row>
+		
+		<Row Tag="LOC_NAME_DB_GOV_PROMOTION_THEATER_SQUARE_ADJACENCY"><Text>Connoisseur</Text></Row>
+		<Row Tag="LOC_DESC_DB_GOV_PROMOTION_THEATER_SQUARE_ADJACENCY"><Text>+100% Theater Square adjacency bonuses.</Text></Row>
+
+		<Row Tag="LOC_NAME_DB_GOV_PROMOTION_CULTURE_MULTIPLIER"><Text>Patron</Text></Row>
+		<Row Tag="LOC_DESC_DB_GOV_PROMOTION_CULTURE_MULTIPLIER"><Text>+50%[ICON_Culture]Culture in this city.</Text></Row>
+
+		<Row Tag="LOC_NAME_DB_GOV_PROMOTION_CULTURE_PER_CHARMING_TILE"><Text>Inspiring</Text></Row>
+		<Row Tag="LOC_DESC_DB_GOV_PROMOTION_CULTURE_PER_CHARMING_TILE"><Text>+1[ICON_Culture]Culture on each charming and breathtaking tile.</Text></Row>
+
+		<Row Tag="LOC_NAME_DB_GOV_PROMOTION_CULTURE_BOMB"><Text>Culture Bomb</Text></Row>
+		<Row Tag="LOC_DESC_DB_GOV_PROMOTION_CULTURE_BOMB"><Text>Upon completion, districts in all your cities acquire adjacent tiles (within 3 of the district's city center). This effect can take territory from others.</Text></Row>
+
+		<Row Tag="LOC_NAME_DB_GOV_PROMOTION_DIPLOMATIC_VISIBILITY"><Text>Flying Squadron</Text></Row>
+		<Row Tag="LOC_DESC_DB_GOV_PROMOTION_DIPLOMATIC_VISIBILITY"><Text>Gain a level of diplomatic visibility on each other civilization.</Text></Row>
+
+		
+		<Row Tag="LOC_NAME_DB_GOV_PROMOTION_BASE_RELIGION"><Text>{LOC_NAME_DB_GOVERNOR_RELIGION}</Text></Row>
+		<Row Tag="LOC_DESC_DB_GOV_PROMOTION_BASE_RELIGION"><Text>+2[ICON_GreatProphet]Great Prophet points.</Text></Row>
+		
+		
+		<Row Tag="LOC_NAME_DB_GOV_PROMOTION_BASE_HARVEST"><Text>{LOC_NAME_DB_GOVERNOR_HARVEST}</Text></Row>
+		<Row Tag="LOC_DESC_DB_GOV_PROMOTION_BASE_HARVEST"><Text>Settlers trained, purchased, or granted in this city do not consume a[ICON_Citizen]Population.</Text></Row>
+		
+		<Row Tag="LOC_NAME_DB_GOV_PROMOTION_PRODUCTION_MULTIPLIER_SETTLERS"><Text>Manifest Destiny</Text></Row>
+		<Row Tag="LOC_DESC_DB_GOV_PROMOTION_PRODUCTION_MULTIPLIER_SETTLERS"><Text>+50%[ICON_Production]Production toward training Settlers in this city.</Text></Row>
+
+		<Row Tag="LOC_NAME_DB_GOV_PROMOTION_PRODUCTION_MULTIPLIER_BUILDING"><Text>Engineer</Text></Row>
+		<Row Tag="LOC_DESC_DB_GOV_PROMOTION_PRODUCTION_MULTIPLIER_BUILDING"><Text>+50%[ICON_Production]Production toward constructing buildings in this city.</Text></Row>
+
+		<Row Tag="LOC_NAME_DB_GOV_PROMOTION_PRODUCTION_MULTIPLIER_WONDER"><Text>Architect</Text></Row>
+		<Row Tag="LOC_DESC_DB_GOV_PROMOTION_PRODUCTION_MULTIPLIER_WONDER"><Text>+50%[ICON_Production]Production toward constructing wonders in this city.</Text></Row>
+
+		
+		<Row Tag="LOC_NAME_DB_GOV_PROMOTION_BASE_BUILDERS"><Text>{LOC_NAME_DB_GOVERNOR_BUILDERS}</Text></Row>
+		<Row Tag="LOC_DESC_DB_GOV_PROMOTION_BASE_BUILDERS"><Text>+100%[ICON_Production]Production toward training Builders in this city.</Text></Row>
+		
+		<Row Tag="LOC_NAME_DB_GOV_PROMOTION_BUILDER_MOVEMENT"><Text>Hustle</Text></Row>
+		<Row Tag="LOC_DESC_DB_GOV_PROMOTION_BUILDER_MOVEMENT"><Text>Builders trained, purchased, or granted in this city get +2[ICON_Movement]Movement.</Text></Row>
+		
+		<Row Tag="LOC_NAME_DB_ABILITY_GOV_PROMOTION_BUILDER_MOVEMENT"><Text>Hustle</Text></Row>
+		<Row Tag="LOC_DESC_DB_ABILITY_GOV_PROMOTION_BUILDER_MOVEMENT"><Text>+2[ICON_Movement]Movement (from {LOC_NAME_DB_GOVERNOR_BUILDERS})</Text></Row>
+
+		<Row Tag="LOC_NAME_DB_GOV_PROMOTION_EXTRA_DISTRICT"><Text>Visionary</Text></Row>
+		<Row Tag="LOC_DESC_DB_GOV_PROMOTION_EXTRA_DISTRICT"><Text>This city can build an extra specialty district.</Text></Row>
+
+		
+		<Row Tag="LOC_NAME_DB_GOV_PROMOTION_BASE_SCIENCE"><Text>{LOC_NAME_DB_GOVERNOR_SCIENCE}</Text></Row>
+		<Row Tag="LOC_DESC_DB_GOV_PROMOTION_BASE_SCIENCE"><Text>+3[ICON_Science]Science.</Text></Row>
+		
+		<Row Tag="LOC_NAME_DB_GOV_PROMOTION_CAMPUS_ADJACENCY"><Text>Researcher</Text></Row>
+		<Row Tag="LOC_DESC_DB_GOV_PROMOTION_CAMPUS_ADJACENCY"><Text>+100% Campus adjacency bonuses.</Text></Row>
+
+		<Row Tag="LOC_NAME_DB_GOV_PROMOTION_SCIENCE_ON_MINES"><Text>School of Mines</Text></Row>
+		<Row Tag="LOC_DESC_DB_GOV_PROMOTION_SCIENCE_ON_MINES"><Text>Mines in this city yield +2[ICON_Science]Science.</Text></Row>
+		
+		
+		<Row Tag="LOC_NAME_DB_GOV_PROMOTION_BASE_GROWTH"><Text>{LOC_NAME_DB_GOVERNOR_GROWTH}</Text></Row>
+		<Row Tag="LOC_DESC_DB_GOV_PROMOTION_BASE_GROWTH"><Text>+2[ICON_Food]Food.</Text></Row>
+		
+		<Row Tag="LOC_NAME_DB_GOV_PROMOTION_GROWTH_RATE"><Text>Fertilizer</Text></Row>
+		<Row Tag="LOC_DESC_DB_GOV_PROMOTION_GROWTH_RATE"><Text>+25%[ICON_Food]Growth in this city.</Text></Row>
+
+		<Row Tag="LOC_NAME_DB_GOV_PROMOTION_CITY_HOUSING"><Text>Homesteads</Text></Row>
+		<Row Tag="LOC_DESC_DB_GOV_PROMOTION_CITY_HOUSING"><Text>+10[ICON_Housing]Housing for this city.</Text></Row>
+
+		<Row Tag="LOC_NAME_DB_GOV_PROMOTION_CITY_AMENITIES"><Text>Lavish Parties</Text></Row>
+		<Row Tag="LOC_DESC_DB_GOV_PROMOTION_CITY_AMENITIES"><Text>+5[ICON_Amenities]Amenities for this city.</Text></Row>
+
+		<Row Tag="LOC_NAME_DB_GOV_PROMOTION_OUTGOING_TRADE"><Text>Surplus Logistics</Text></Row>
+		<Row Tag="LOC_DESC_DB_GOV_PROMOTION_OUTGOING_TRADE"><Text>Your [ICON_TradeRoute] Trade Routes starting here provide +2 [ICON_Food] Food to this city.</Text></Row>
+
+		
+		<Row Tag="LOC_NAME_DB_GOV_PROMOTION_BASE_MILITARY"><Text>{LOC_NAME_DB_GOVERNOR_MILITARY}</Text></Row>
+		<Row Tag="LOC_DESC_DB_GOV_PROMOTION_BASE_MILITARY"><Text>Military units trained, purchased, or granted in this city start with a free promotion.</Text></Row>
+		
+		<Row Tag="LOC_NAME_DB_GOV_PROMOTION_PUSHBACK"><Text>Elite Training</Text></Row>
+		<Row Tag="LOC_DESC_DB_GOV_PROMOTION_PUSHBACK"><Text>Melee military units trained, purchased, or granted in this city push defending enemy units back after attacks where they score more damage. Defenders that cannot retreat suffer additional damage.</Text></Row>
+	
+		<Row Tag="LOC_NAME_DB_ABILITY_GOV_PROMOTION_PUSHBACK"><Text>{LOC_NAME_DB_GOV_PROMOTION_PUSHBACK}</Text></Row>
+		<Row Tag="LOC_DESC_DB_ABILITY_GOV_PROMOTION_PUSHBACK"><Text>Pushes defending enemy units back after attacks where they score more damage. Defenders that cannot retreat suffer additional damage.</Text></Row>
+	
+		<Row Tag="LOC_NAME_DB_GOV_PROMOTION_DAMAGE_PENALTY"><Text>Stiff Upper Lip</Text></Row>
+		<Row Tag="LOC_DESC_DB_GOV_PROMOTION_DAMAGE_PENALTY"><Text>Military units trained, purchased, or granted in this city do not suffer any [ICON_Strength]Combat Strength penalty for being damaged.</Text></Row>
+	
+		<Row Tag="LOC_NAME_DB_ABILITY_GOV_PROMOTION_DAMAGE_PENALTY"><Text>{LOC_NAME_DB_GOV_PROMOTION_DAMAGE_PENALTY}</Text></Row>
+		<Row Tag="LOC_DESC_DB_ABILITY_GOV_PROMOTION_DAMAGE_PENALTY"><Text>No [ICON_Strength]Combat Strength penalty for being damaged.</Text></Row>
+
+		<Row Tag="LOC_NAME_DB_GOV_PROMOTION_SUPPORT_FLANKING"><Text>Band of Brothers</Text></Row>
+		<Row Tag="LOC_DESC_DB_GOV_PROMOTION_SUPPORT_FLANKING"><Text>Military units trained, purchased, or granted in this city gain double the normal flanking and support bonuses from adjacent units.</Text></Row>
+	
+		<Row Tag="LOC_NAME_DB_ABILITY_GOV_PROMOTION_SUPPORT_FLANKING"><Text>{LOC_NAME_DB_GOV_PROMOTION_SUPPORT_FLANKING}</Text></Row>
+		<Row Tag="LOC_DESC_DB_ABILITY_GOV_PROMOTION_SUPPORT_FLANKING"><Text>Double normal flanking and support bonuses from adjacent units.</Text></Row>
+
+		<Row Tag="LOC_NAME_DB_GOV_PROMOTION_HEAL_ON_KILL"><Text>No Man Left Behind</Text></Row>
+		<Row Tag="LOC_DESC_DB_GOV_PROMOTION_HEAL_ON_KILL"><Text>Military units trained, purchased, or granted in this city gain 20 [ICON_Damaged]Health when they eliminate an enemy combat unit.</Text></Row>
+
+		<Row Tag="LOC_NAME_DB_ABILITY_GOV_PROMOTION_HEAL_ON_KILL"><Text>{LOC_NAME_DB_GOV_PROMOTION_HEAL_ON_KILL}</Text></Row>
+		<Row Tag="LOC_DESC_DB_ABILITY_GOV_PROMOTION_HEAL_ON_KILL"><Text>Gains 20 [ICON_Damaged]Health when eliminating an enemy combat unit.</Text></Row>
+
+		<Row Tag="LOC_NAME_DB_GOV_PROMOTION_BATTLEFIELD_DECORATIONS"><Text>Battlefield Decorations</Text></Row>
+		<Row Tag="LOC_DESC_DB_GOV_PROMOTION_BATTLEFIELD_DECORATIONS"><Text>Military units trained, purchased, or granted in this city can promote without ending their turn.</Text></Row>
+		
+		<Row Tag="LOC_NAME_DB_ABILITY_GOV_PROMOTION_BATTLEFIELD_DECORATIONS"><Text>{LOC_NAME_DB_GOV_PROMOTION_BATTLEFIELD_DECORATIONS}</Text></Row>
+		<Row Tag="LOC_DESC_DB_ABILITY_GOV_PROMOTION_BATTLEFIELD_DECORATIONS"><Text>Promoting does not end this unit's turn.</Text></Row>
+</BaseGameText>
+</GameData>

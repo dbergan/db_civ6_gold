@@ -1,0 +1,1 @@
+UPDATE LocalizedText SET Text = REPLACE(REPLACE(Text , 'Bonus resources improved by Farms', 'Farms'), 'Bonus resources with a farm', 'Farms') WHERE Tag = 'LOC_BUILDING_WATER_MILL_DESCRIPTION' AND Language = 'en_US' ;

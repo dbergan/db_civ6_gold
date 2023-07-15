@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameInfo>
+	<IconDefinitions>
+		<Row Name="ICON_BUILDING_DB_COURTHOUSE" Atlas="ICON_ATLAS_EXPANSION_1_DISTRICT_BUILDINGS" Index="1" />
+	</IconDefinitions>
+</GameInfo>

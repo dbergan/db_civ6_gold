@@ -1,0 +1,4 @@
+INSERT INTO UnitPromotionPrereqs ('UnitPromotion', 'PrereqUnitPromotion') VALUES
+('PROMOTION_REINFORCED_HULL', 'PROMOTION_HELMSMAN'),
+('PROMOTION_RUTTER', 'PROMOTION_EMBOLON')
+;

@@ -1,0 +1,5 @@
+<Container ID="IconAndTextContainer" Hidden="1"/>
+
+<Container ID="Root" Size="514,parent">
+
+<Image Texture="Controls_GradientSmall" Size="22,parent" AnchorSide="O,I" Anchor="R,T" Color="0,0,0,255" Rotate="270" Offset="-2,0"/>

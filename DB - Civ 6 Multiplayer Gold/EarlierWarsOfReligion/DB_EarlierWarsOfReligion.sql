@@ -1,0 +1,5 @@
+UPDATE Policies SET PrereqCivic = 'CIVIC_THEOLOGY' WHERE PolicyType = 'POLICY_WARS_OF_RELIGION' ;
+
+INSERT OR REPLACE INTO ObsoletePolicies (PolicyType, ObsoletePolicy) VALUES ('POLICY_WARS_OF_RELIGION', 'POLICY_NATIONAL_IDENTITY') ;
+
+UPDATE DiplomaticActions SET InitiatorPrereqCivic = 'CIVIC_THEOLOGY' WHERE DiplomaticActionType = 'DIPLOACTION_DECLARE_HOLY_WAR' ;

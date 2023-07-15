@@ -1,0 +1,37 @@
+COULDNT FIGURE OUT
+By default, deselect Valetta from City State list
+By default, deselect the OP natural wonders
+
+MORE FOGGY
+remove info about enemy from combat previews
+no info on health, ggs, promotions, abilities, religion
+having an adjacent scout allows a proper combat preview (or just health?)
+remove red dots from enemy ggs
+
+BETTER WARFARE
+Melee attacks from City and Encampment tiles -10 (from Better Warfare)
+What if sieging caused starvation? (i.e. citizens can't work a tile occupied by an enemy unit)
+
+NEED TO CODE
+Civilopedia info page that lists all GOLD options and whether they're enabled or not
+Policies panel for religious beliefs: assumes all your cities follow your religion
+New belief selection screens? Show calculated yields? (include all my cities and/or all my believing cities) Show beliefs already taken?
+Make screen of "things taken" and get rid of notifications on, say, wonders, great people, etc. Shows turn taken, but not who
+Add "P" to keybinding list for adding a pin
+Button/hotkey to pin all enemy units... erases former pins and places new ones on all seen bad guys (or option to auto do it at end of turn)
+Battle notifications drop pins on attackers, nukes, dead units
+Notification when Great People/Scouts are killed (or drop a pin)
+Stonehenge thinks it gives Atlas a benefit
+Homing Torpedoes gives +10 on defense but should be +7
+Show breakdown of your own Cities' Defense Strength on hover [Like +3 Walls, +5 Palace/Gustav, +3 Hills, +4 Districts]
+City center tiles get deep fog of war when not in vision
+Add Support calculation to unit tooltip (note that it's only melee attacks)
+Integrate better war weariness statistics (its own report page?)
+Unit Table from Better Civilopedia? (https://steamcommunity.com/sharedfiles/filedetails/?id=1341630847)
+Music selector [When you click another civ leader icon (for diplomacy), you hear their music. There should be a way to do that outside of the diplomacy screen.]
+
+NEED TO TEST
+
+
+
+===DONE===

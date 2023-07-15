@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Default" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Default</Configuration>
+    <Name>DB Hotfixes</Name>
+    <Guid>ca0da5b5-ce12-4115-a661-c2c9cb988724</Guid>
+    <ProjectGuid>fd0ae6f6-051c-4bdf-a95f-7e44057beaf8</ProjectGuid>
+    <ModVersion>10</ModVersion>
+    <Teaser>Does nothing</Teaser>
+    <Description>Placeholder mod in case anything needs to change during our Hotseat game (e.g. a bug was discovered, or another modder changed something that unbalanced our game).</Description>
+    <Authors>DB</Authors>
+    <SpecialThanks>
+    </SpecialThanks>
+    <AffectsSavedGames>true</AffectsSavedGames>
+    <SupportsSinglePlayer>true</SupportsSinglePlayer>
+    <SupportsMultiplayer>true</SupportsMultiplayer>
+    <SupportsHotSeat>true</SupportsHotSeat>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+    <AssemblyName>DB - Hotfixes</AssemblyName>
+    <RootNamespace>DB - Hotfixes</RootNamespace>
+    <InGameActionData><![CDATA[<InGameActions><DoNothing id="Hotfix_Data"><Properties><LoadOrder>999999999</LoadOrder></Properties><File>Hotfix.sql</File></DoNothing><DoNothing id="Hotfix_Text"><Properties><LoadOrder>999999999</LoadOrder></Properties><File>LOC_Hotfix.sql</File></DoNothing></InGameActions>]]></InGameActionData>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Default' ">
+    <OutputPath>.</OutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include="Hotfix.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="LOC_Hotfix.sql">
+      <SubType>Content</SubType>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildLocalExtensionPath)Civ6.targets" />
+</Project>

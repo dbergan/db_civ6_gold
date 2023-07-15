@@ -1,0 +1,4 @@
+UPDATE LocalizedText SET Text = REPLACE(Text, 'Grants the ability to construct a Spy', 'Can create two{LOC_GOLD_LABEL} Spies') WHERE Language = 'en_US' AND Text LIKE '%Grants the ability to construct a Spy%'  ;
+UPDATE LocalizedText SET Text = REPLACE(Text, 'Grants the ability to construct an additional Spy', 'Can create two{LOC_GOLD_LABEL} more Spies') WHERE Language = 'en_US' AND Text LIKE '%Grants the ability to construct an additional Spy%'  ;
+UPDATE LocalizedText SET Text = REPLACE(Text, '1 Spy and Spy capacity', '2{LOC_GOLD_LABEL} Spies and Spy capacity') WHERE Language = 'en_US' AND Text LIKE '%1 Spy and Spy capacity%'  ;
+UPDATE LocalizedText SET Text = REPLACE(Text, 'Gain a free Spy', 'Gain 2{LOC_GOLD_LABEL} free Spies') WHERE Language = 'en_US' AND Text LIKE '%Gain a free Spy%'  ;

@@ -1,0 +1,1 @@
+UPDATE Religions SET RequiresCustomName = 1 WHERE ReligionType != 'RELIGION_PANTHEON' ;

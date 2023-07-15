@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# ModBuddy Solution File, Format Version 12.00
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{5DAE07AF-E217-45C1-8DE7-FF99D6011E8A}") = "DB - Civ 6 Multiplayer Gold", "DB - Civ 6 Multiplayer Gold\DB - Civ 6 Multiplayer Gold.civ6proj", "{1F8AD6E5-32E6-4241-87A0-D15D07F65E7D}"
+EndProject
+Project("{5DAE07AF-E217-45C1-8DE7-FF99D6011E8A}") = "Tools and References", "Tools and References\Tools and References.civ6proj", "{4FE2F841-65A2-427E-9599-78BB962F9066}"
+EndProject
+Project("{5DAE07AF-E217-45C1-8DE7-FF99D6011E8A}") = "DB - Hotfixes", "DB - Hotfixes\DB - Hotfixes.civ6proj", "{FD0AE6F6-051C-4BDF-A95F-7E44057BEAF8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Default|Civ6 = Default|Civ6
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1F8AD6E5-32E6-4241-87A0-D15D07F65E7D}.Default|Civ6.ActiveCfg = Default|Civ6
+		{1F8AD6E5-32E6-4241-87A0-D15D07F65E7D}.Default|Civ6.Build.0 = Default|Civ6
+		{4FE2F841-65A2-427E-9599-78BB962F9066}.Default|Civ6.ActiveCfg = Default|Civ6
+		{FD0AE6F6-051C-4BDF-A95F-7E44057BEAF8}.Default|Civ6.ActiveCfg = Default|Civ6
+		{FD0AE6F6-051C-4BDF-A95F-7E44057BEAF8}.Default|Civ6.Build.0 = Default|Civ6
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

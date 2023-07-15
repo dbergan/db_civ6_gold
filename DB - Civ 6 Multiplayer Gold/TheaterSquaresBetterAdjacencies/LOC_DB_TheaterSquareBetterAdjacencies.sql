@@ -1,0 +1,1 @@
+UPDATE LocalizedText SET Text = Text || '[NEWLINE][NEWLINE]Provides an extra +1/+2 [ICON_Culture] Culture when placed on a tile with Charming/Breathtaking Appeal.{LOC_GOLD_LABEL}' WHERE Tag = 'LOC_DISTRICT_THEATER_DESCRIPTION' AND Language = 'en_US' ;

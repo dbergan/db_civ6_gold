@@ -1,0 +1,45 @@
+<GameInfo>
+	<IconDefinitions>
+
+		<!-- Battle Notifications -->
+		<Replace Name="ICON_NOTIFICATION_USER_DEFINED_1">
+			<Atlas>ICON_ATLAS_NOTIFICATIONS</Atlas>
+			<Index>94</Index>
+		</Replace>
+		<Replace Name="ICON_NOTIFICATION_USER_DEFINED_2">
+			<Atlas>ICON_ATLAS_NOTIFICATIONS</Atlas>
+			<Index>94</Index>
+		</Replace>
+		<Replace Name="ICON_NOTIFICATION_USER_DEFINED_3">
+			<Atlas>ICON_ATLAS_NOTIFICATIONS</Atlas>
+			<Index>12</Index>
+		</Replace>
+		<Replace Name="ICON_NOTIFICATION_USER_DEFINED_4">
+			<Atlas>ICON_ATLAS_NOTIFICATIONS</Atlas>
+			<Index>56</Index>
+		</Replace>
+		<Replace Name="ICON_NOTIFICATION_USER_DEFINED_5">
+			<Atlas>ICON_ATLAS_NOTIFICATIONS</Atlas>
+			<Index>60</Index>
+		</Replace>
+		<Replace Name="ICON_NOTIFICATION_USER_DEFINED_6">
+			<Atlas>ICON_ATLAS_NOTIFICATIONS</Atlas>
+			<Index>53</Index>
+		</Replace>
+		<Replace Name="ICON_NOTIFICATION_USER_DEFINED_7">
+			<Atlas>ICON_ATLAS_NOTIFICATIONS</Atlas>
+			<Index>59</Index>
+		</Replace>
+
+
+		<!-- Learn From Other Civs -->
+		<Replace Name="ICON_NOTIFICATION_USER_DEFINED_8">
+			<Atlas>ICON_ATLAS_NOTIFICATIONS</Atlas>
+			<Index>7</Index>
+		</Replace>
+		<Replace Name="ICON_NOTIFICATION_USER_DEFINED_9">
+			<Atlas>ICON_ATLAS_NOTIFICATIONS</Atlas>
+			<Index>4</Index>
+		</Replace>
+	</IconDefinitions>
+</GameInfo>

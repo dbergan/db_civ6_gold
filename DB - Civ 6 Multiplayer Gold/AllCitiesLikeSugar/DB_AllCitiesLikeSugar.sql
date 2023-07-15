@@ -1,0 +1,1 @@
+UPDATE Resources SET Happiness = 999 WHERE Happiness > 0 ;

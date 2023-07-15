@@ -1,0 +1,2 @@
+UPDATE LocalizedText SET Text = 'The {1_Resource} on this tile will immediately be removed (for no benefit) if you place this district.' WHERE Language = 'en_US' AND Tag = 'LOC_DISTRICT_ZONE_WILL_HARVEST_RESOURCE' ;
+UPDATE LocalizedText SET Text = 'The {1_Resource} on this tile will immediately be removed (for no benefit) if you place this district.' WHERE Language = 'en_US' AND Tag = 'LOC_DISTRICT_OK_HARVEST_RESOURCE' ;

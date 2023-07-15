@@ -1,0 +1,2 @@
+UPDATE LocalizedText SET Text = REPLACE(Text, '+1 [ICON_TradeRoute] Trade Route capacity, if this city does not yet have a Market building.', '(Does not provide a trade route.{LOC_GOLD_LABEL})') WHERE Language = 'en_US' AND Tag IN ('LOC_BUILDING_LIGHTHOUSE_EXPANSION1_DESCRIPTION', 'LOC_BUILDING_LIGHTHOUSE_EXPANSION2_DESCRIPTION') ;
+UPDATE LocalizedText SET Text = REPLACE(Text, ', if this city does not yet have a Lighthouse building', '') WHERE Language = 'en_US' AND Tag IN ('LOC_BUILDING_MARKET_EXPANSION1_DESCRIPTION') ;

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameInfo>
+	<IconDefinitions>
+		<Row Name="ICON_BUILDING_DB_PANTHEON" Atlas="ICON_ATLAS_ETHIOPIA_BUILDINGS"	Index="5"/>
+		<Row Name="ICON_DB_EXPAND_DIPLOMACY" Atlas="ICON_ATLAS_EXPANSION1_STATS"	Index="9"/>
+		<Row Name="ICON_DB_EXPAND_ESPIONAGE" Atlas="ICON_ATLAS_STATS"	Index="33"/>
+		
+	</IconDefinitions>
+</GameInfo>

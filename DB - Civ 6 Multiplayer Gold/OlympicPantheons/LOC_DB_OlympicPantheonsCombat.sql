@@ -1,0 +1,187 @@
+UPDATE LocalizedText SET Text = REPLACE(Text, ', and harvesting of [ICON_RESOURCE_Copper] Copper', '') WHERE Language = 'en_US' AND Tag = 'LOC_TECH_MINING_DESCRIPTION' ;
+
+UPDATE LocalizedText SET Text = REPLACE(Text, 'Allows harvesting of Bonus resources improved by Farms.', 'Allows harvesting of Rice and Maize.') WHERE Language = 'en_US' AND Tag = 'LOC_TECH_POTTERY_DESCRIPTION' ;
+UPDATE LocalizedText SET Text = REPLACE(Text, 'Allows harvesting of [ICON_RESOURCE_CATTLE] Cattle, [ICON_RESOURCE_SHEEP] Sheep, and [ICON_RESOURCE_DEER] Deer.', '') WHERE Language = 'en_US' AND Tag = 'LOC_TECH_ANIMAL_HUSBANDRY_DESCRIPTION' ;
+UPDATE LocalizedText SET Text = REPLACE(Text, 'Allows clearing of Marsh, and h', 'H') WHERE Language = 'en_US' AND Tag = 'LOC_TECH_IRRIGATION_DESCRIPTION' ;
+UPDATE LocalizedText SET Text = REPLACE(Text, 'Allows harvesting of [ICON_RESOURCE_STONE] Stone.', '') WHERE Language = 'en_US' AND Tag = 'LOC_TECH_MASONRY_DESCRIPTION' ;
+
+
+INSERT OR REPLACE INTO LocalizedText (Tag, Text, Language) VALUES
+
+('LOC_OP_TILE_COMBAT_SUFFIX', '[ICON_Strength] defending-on or attacking-into (when owned by any city,[ICON_Strength]bonus includes attacks-from)', 'en_US'),
+('LOC_OP_TILE_COMBAT_DESC_SUFFIX', '[ENDCOLOR][ICON_Strength] defending-on or attacking-into', 'en_US'),
+
+('LOC_OP_RESOURCE_COMBAT_SUFFIX', '[ICON_Strength] defending-on or attacking-into (when owned by any city,[ICON_Strength]bonus extends 2 tiles)', 'en_US'),
+('LOC_OP_RESOURCE_COMBAT_DESC_SUFFIX', '[ENDCOLOR][ICON_Strength] defending-on or attacking-into', 'en_US'),
+
+('LOC_OP_WORSHIPS_NAME_PREFIX', 'Follows', 'en_US'),
+('LOC_OP_WORSHIPS_TILE_DESC_PREFIX', 'Combat bonus defending-on or attacking-into', 'en_US'),
+('LOC_OP_WORSHIPS_TILE_DESC_SUFFIX', 'tiles (when owned by any city, bonus includes attacks-from these tiles)', 'en_US'),
+('LOC_OP_WORSHIPS_RESOURCES_DESC_PREFIX', 'Combat bonus defending-on or attacking-into tiles with', 'en_US'),
+('LOC_OP_WORSHIPS_RESOURCES_DESC_SUFFIX', '(when owned by any city, bonus extends 2 tiles)', 'en_US'),
+
+('LOC_OP_ABILITY_WORSHIPS_ARES_AND_KNOWS_BRONZE_WORKING_NAME', 'Has Bronze Working', 'en_US'),
+('LOC_OP_ABILITY_WORSHIPS_ARES_AND_KNOWS_BRONZE_WORKING_DESC', 'Enables Ares combat bonus for [ICON_RESOURCE_IRON](Iron)', 'en_US'),
+('LOC_OP_ABILITY_ARES_COMBAT_TO_IRON_NAME', '{LOC_OP_ARES}', 'en_US'),
+('LOC_OP_ABILITY_ARES_COMBAT_TO_IRON_DESC', '{DB_POS_COLOR}+6{LOC_OP_RESOURCE_COMBAT_DESC_SUFFIX} [ICON_RESOURCE_IRON](Iron)', 'en_US'),
+
+('LOC_OP_ABILITY_WORSHIPS_ARES_AND_KNOWS_MILITARY_ENGINEERING_NAME', 'Has Military Engineering', 'en_US'),
+('LOC_OP_ABILITY_WORSHIPS_ARES_AND_KNOWS_MILITARY_ENGINEERING_DESC', 'Enables Ares combat bonus for [ICON_RESOURCE_NITER](Niter)', 'en_US'),
+('LOC_OP_ABILITY_ARES_COMBAT_TO_NITER_NAME', '{LOC_OP_ARES}', 'en_US'),
+('LOC_OP_ABILITY_ARES_COMBAT_TO_NITER_DESC', '{DB_POS_COLOR}+6{LOC_OP_RESOURCE_COMBAT_DESC_SUFFIX} [ICON_RESOURCE_NITER](Niter)', 'en_US'),
+
+('LOC_OP_ABILITY_WORSHIPS_ARES_AND_KNOWS_COMBINED_ARMS_NAME', 'Has Combined Arms', 'en_US'),
+('LOC_OP_ABILITY_WORSHIPS_ARES_AND_KNOWS_COMBINED_ARMS_DESC', 'Enables Ares combat bonus for [ICON_RESOURCE_URANIUM](Uranium)', 'en_US'),
+('LOC_OP_ABILITY_ARES_COMBAT_TO_URANIUM_NAME', '{LOC_OP_ARES}', 'en_US'),
+('LOC_OP_ABILITY_ARES_COMBAT_TO_URANIUM_DESC', '{DB_POS_COLOR}+6{LOC_OP_RESOURCE_COMBAT_DESC_SUFFIX} [ICON_RESOURCE_URANIUM](Uranium)', 'en_US'),
+
+('LOC_OP_ABILITY_WORSHIPS_HEPHAESTUS_AND_KNOWS_BRONZE_WORKING_NAME', 'Has Bronze Working', 'en_US'),
+('LOC_OP_ABILITY_WORSHIPS_HEPHAESTUS_AND_KNOWS_BRONZE_WORKING_DESC', 'Enables Hephaestus combat bonus for [ICON_RESOURCE_IRON](Iron)', 'en_US'),
+('LOC_OP_ABILITY_HEPHAESTUS_COMBAT_TO_IRON_NAME', '{LOC_OP_HEPHAESTUS}', 'en_US'),
+('LOC_OP_ABILITY_HEPHAESTUS_COMBAT_TO_IRON_DESC', '{DB_POS_COLOR}+3{LOC_OP_RESOURCE_COMBAT_DESC_SUFFIX} [ICON_RESOURCE_IRON](Iron)', 'en_US'),
+
+('LOC_OP_ABILITY_WORSHIPS_HEPHAESTUS_AND_KNOWS_INDUSTRIALIZATION_NAME', 'Has Industrialization', 'en_US'),
+('LOC_OP_ABILITY_WORSHIPS_HEPHAESTUS_AND_KNOWS_INDUSTRIALIZATION_DESC', 'Enables Hephaestus combat bonus for [ICON_RESOURCE_COAL](Coal)', 'en_US'),
+('LOC_OP_ABILITY_HEPHAESTUS_COMBAT_TO_COAL_NAME', '{LOC_OP_HEPHAESTUS}', 'en_US'),
+('LOC_OP_ABILITY_HEPHAESTUS_COMBAT_TO_COAL_DESC', '{DB_POS_COLOR}+3{LOC_OP_RESOURCE_COMBAT_DESC_SUFFIX} [ICON_RESOURCE_COAL](Coal)', 'en_US'),
+
+('LOC_OP_ABILITY_WORSHIPS_HEPHAESTUS_AND_KNOWS_RADIO_NAME', 'Has Radio', 'en_US'),
+('LOC_OP_ABILITY_WORSHIPS_HEPHAESTUS_AND_KNOWS_RADIO_DESC', 'Enables Hephaestus combat bonus for [ICON_RESOURCE_ALUMINUM](Aluminum)', 'en_US'),
+('LOC_OP_ABILITY_HEPHAESTUS_COMBAT_TO_ALUMINUM_NAME', '{LOC_OP_HEPHAESTUS}', 'en_US'),
+('LOC_OP_ABILITY_HEPHAESTUS_COMBAT_TO_ALUMINUM_DESC', '{DB_POS_COLOR}+3{LOC_OP_RESOURCE_COMBAT_DESC_SUFFIX} [ICON_RESOURCE_ALUMINUM](Aluminum)', 'en_US'),
+
+('LOC_OP_ABILITY_WORSHIPS_HERMES_AND_KNOWS_REFINING_NAME', 'Has Refining', 'en_US'),
+('LOC_OP_ABILITY_WORSHIPS_HERMES_AND_KNOWS_REFINING_DESC', 'Enables Hermes combat bonus for [ICON_RESOURCE_OIL](Oil)', 'en_US'),
+('LOC_OP_ABILITY_HERMES_COMBAT_TO_OIL_NAME', '{LOC_OP_HERMES}', 'en_US'),
+('LOC_OP_ABILITY_HERMES_COMBAT_TO_OIL_DESC', '{DB_POS_COLOR}+6{LOC_OP_RESOURCE_COMBAT_DESC_SUFFIX} [ICON_RESOURCE_OIL](Oil)', 'en_US'),
+
+('LOC_OP_ABILITY_WORSHIPS_POSEIDON_AND_KNOWS_ANIMAL_HUSBANDRY_NAME', 'Has Animal Husbandry', 'en_US'),
+('LOC_OP_ABILITY_WORSHIPS_POSEIDON_AND_KNOWS_ANIMAL_HUSBANDRY_DESC', 'Enables Poseidon combat bonus for [ICON_RESOURCE_HORSES](Horses)', 'en_US'),
+('LOC_OP_ABILITY_POSEIDON_COMBAT_TO_HORSES_NAME', '{LOC_OP_POSEIDON}', 'en_US'),
+('LOC_OP_ABILITY_POSEIDON_COMBAT_TO_HORSES_DESC', '{DB_POS_COLOR}+5{LOC_OP_RESOURCE_COMBAT_DESC_SUFFIX} [ICON_RESOURCE_HORSES](Horses)', 'en_US'),
+
+('LOC_OP_ABILITY_WORSHIPS_POSEIDON_DESC', 'Combat bonus for Ocean tiles and when within 2 tiles of {LOC_OP_POSEIDON_RESOURCES} (owned by any city)', 'en_US'),
+('LOC_OP_ABILITY_WORSHIPS_HEPHAESTUS_DESC', 'Combat bonus for Volcanic Soil tiles and when within 2 tiles of {LOC_OP_HEPHAESTUS_RESOURCES} (owned by any city)', 'en_US'),
+('LOC_OP_ABILITY_ZEUS_COMBAT_ON_DESC', '{DB_POS_COLOR}+5[ENDCOLOR][ICON_Strength] defending-on or attacking-from tiles next to mountains (when the mountain is owned by any city)', 'en_US'),
+('LOC_OP_ABILITY_ZEUS_COMBAT_TO_DESC', '{LOC_OP_ABILITY_ZEUS_COMBAT_ON_DESC}', 'en_US'),
+('LOC_OP_ABILITY_WORSHIPS_ZEUS_DESC', 'Combat bonus defending-on or attacking-from tiles next to mountains (when the mountain is owned by any city)', 'en_US')
+;
+
+UPDATE LocalizedText SET Text = REPLACE(Text, '{LOC_OP_REVERSE_HOLY_SITE_SUFFIX}', '{LOC_OP_REVERSE_HOLY_SITE_SUFFIX}{LOC_OP_NEWLINE_BULLET_ARROW}+4{LOC_OP_RESOURCE_COMBAT_SUFFIX}') WHERE Tag = 'LOC_OP_APOLLO_DESC' AND Language = 'en_US' ;
+UPDATE LocalizedText SET Text = Text || '{LOC_OP_NEWLINE_BULLET_ARROW}+6{LOC_OP_RESOURCE_COMBAT_SUFFIX}' WHERE Tag = 'LOC_OP_ARES_DESC' AND Language = 'en_US' ;
+UPDATE LocalizedText SET Text = REPLACE(Text, '{LOC_OP_REVERSE_HOLY_SITE_SUFFIX}', '{LOC_OP_REVERSE_HOLY_SITE_SUFFIX}{LOC_OP_NEWLINE_BULLET_ARROW}+4{LOC_OP_RESOURCE_COMBAT_SUFFIX}') WHERE Tag = 'LOC_OP_ARTEMIS_DESC' AND Language = 'en_US' ;
+UPDATE LocalizedText SET Text = Text || '{LOC_OP_NEWLINE_BULLET_ARROW}+5{LOC_OP_RESOURCE_COMBAT_SUFFIX}' WHERE Tag = 'LOC_OP_ATHENA_DESC' AND Language = 'en_US' ;
+UPDATE LocalizedText SET Text = Text || '{LOC_OP_NEWLINE_BULLET_ARROW}+3{LOC_OP_RESOURCE_COMBAT_SUFFIX}' WHERE Tag = 'LOC_OP_ATLAS_DESC' AND Language = 'en_US' ;
+UPDATE LocalizedText SET Text = Text || '{LOC_OP_NEWLINE_BULLET_ARROW}+3{LOC_OP_RESOURCE_COMBAT_SUFFIX}' WHERE Tag = 'LOC_OP_DEMETER_DESC' AND Language = 'en_US' ;
+UPDATE LocalizedText SET Text = Text || '{LOC_OP_NEWLINE_BULLET_ARROW}+3{LOC_OP_RESOURCE_COMBAT_SUFFIX}' WHERE Tag = 'LOC_OP_DIONYSUS_DESC' AND Language = 'en_US' ;
+UPDATE LocalizedText SET Text = Text || '{LOC_OP_NEWLINE_BULLET_ARROW}+4{LOC_OP_RESOURCE_COMBAT_SUFFIX}' WHERE Tag = 'LOC_OP_HADES_DESC' AND Language = 'en_US' ;
+UPDATE LocalizedText SET Text = Text || '{LOC_OP_NEWLINE_BULLET_ARROW}+4{LOC_OP_RESOURCE_COMBAT_SUFFIX}' WHERE Tag = 'LOC_OP_HERA_DESC' AND Language = 'en_US' ;
+UPDATE LocalizedText SET Text = Text || '{LOC_OP_NEWLINE_BULLET_ARROW}+3{LOC_OP_RESOURCE_COMBAT_SUFFIX}' WHERE Tag = 'LOC_OP_HERMES_DESC' AND Language = 'en_US' ;
+UPDATE LocalizedText SET Text = Text || '{LOC_OP_NEWLINE_BULLET_ARROW}+3{LOC_OP_TILE_COMBAT_SUFFIX}' WHERE Tag = 'LOC_OP_APHRODITE_DESC' AND Language = 'en_US' ;
+UPDATE LocalizedText SET Text = REPLACE(Text, '{LOC_OP_HOLY_SITE_SUFFIX}', '{LOC_OP_HOLY_SITE_SUFFIX}{LOC_OP_NEWLINE_BULLET_ARROW}+3{LOC_OP_TILE_COMBAT_SUFFIX}') WHERE Tag = 'LOC_OP_HELIOS_DESC' AND Language = 'en_US' ;
+UPDATE LocalizedText SET Text = Text || '{LOC_OP_NEWLINE_BULLET_ARROW}+4{LOC_OP_TILE_COMBAT_SUFFIX}' WHERE Tag = 'LOC_OP_PAN_DESC' AND Language = 'en_US' ;
+UPDATE LocalizedText SET Text = REPLACE(Text, '{LOC_OP_HOLY_SITE_SUFFIX}', '{LOC_OP_HOLY_SITE_SUFFIX}{LOC_OP_NEWLINE_BULLET_ARROW}+3{LOC_OP_TILE_COMBAT_SUFFIX}') WHERE Tag = 'LOC_OP_PERSEPHONE_DESC' AND Language = 'en_US' ;
+
+UPDATE LocalizedText SET Text = REPLACE(Text, '{LOC_OP_REVERSE_HOLY_SITE_SUFFIX}', '{LOC_OP_REVERSE_HOLY_SITE_SUFFIX}{LOC_OP_NEWLINE_BULLET_ARROW}+3{LOC_OP_RESOURCE_COMBAT_SUFFIX}') WHERE Tag = 'LOC_OP_HEPHAESTUS_DESC' AND Language = 'en_US' ;
+UPDATE LocalizedText SET Text = REPLACE(Text, '{LOC_OP_HOLY_SITE_SUFFIX}', '{LOC_OP_HOLY_SITE_SUFFIX}{LOC_OP_NEWLINE_BULLET_ARROW}+3{LOC_OP_TILE_COMBAT_SUFFIX}') WHERE Tag = 'LOC_OP_HEPHAESTUS_DESC' AND Language = 'en_US' ;
+
+UPDATE LocalizedText SET Text = REPLACE(Text, '{LOC_OP_REVERSE_HOLY_SITE_SUFFIX}', '{LOC_OP_REVERSE_HOLY_SITE_SUFFIX}{LOC_OP_NEWLINE_BULLET_ARROW}+5{LOC_OP_RESOURCE_COMBAT_SUFFIX}') WHERE Tag = 'LOC_OP_POSEIDON_DESC' AND Language = 'en_US' ;
+UPDATE LocalizedText SET Text = REPLACE(Text, '[NEWLINE][NEWLINE]{LOC_OP_POSEIDON_TILE_TYPE_HOLY_SITE}', '{LOC_OP_NEWLINE_BULLET_ARROW}+5{LOC_OP_TILE_COMBAT_SUFFIX}[NEWLINE][NEWLINE]{LOC_OP_POSEIDON_TILE_TYPE_HOLY_SITE}') WHERE Tag = 'LOC_OP_POSEIDON_DESC' AND Language = 'en_US' ;
+
+UPDATE LocalizedText SET Text = REPLACE(Text, '[NEWLINE][NEWLINE]The Statue of Zeus', '{LOC_OP_NEWLINE_BULLET_ARROW}+5[ICON_Strength] defending-on or attacking-from tiles next to mountains (when the mountain is owned by any city)[NEWLINE][NEWLINE]The Statue of Zeus') WHERE Tag = 'LOC_OP_ZEUS_DESC' AND Language = 'en_US' ;
+
+
+
+INSERT OR REPLACE INTO LocalizedText (Tag, Text, Language)
+	SELECT DISTINCT 'LOC_OP_ABILITY_WORSHIPS_' || God || '_NAME', '{LOC_OP_WORSHIPS_NAME_PREFIX} {LOC_OP_' || God || '}', 'en_US' FROM OP_Pantheons ;
+
+INSERT OR REPLACE INTO LocalizedText (Tag, Text, Language)
+	SELECT DISTINCT 'LOC_OP_ABILITY_WORSHIPS_' || God || '_DESC', '{LOC_OP_WORSHIPS_RESOURCES_DESC_PREFIX} {LOC_OP_' || God || '_RESOURCES} {LOC_OP_WORSHIPS_RESOURCES_DESC_SUFFIX}', 'en_US' FROM OP_Resources WHERE God NOT IN ('HEPHAESTUS', 'POSEIDON') ;
+
+-- Resource pantheons
+INSERT OR REPLACE INTO LocalizedText (Tag, Text, Language)
+	SELECT DISTINCT 'LOC_OP_ABILITY_' || God || '_COMBAT_ON_NAME', '{LOC_OP_' || God || '}', 'en_US' FROM OP_Resource_Yields WHERE Combat > 0 ;
+
+INSERT OR REPLACE INTO LocalizedText (Tag, Text, Language)
+	SELECT DISTINCT 'LOC_OP_ABILITY_' || God || '_COMBAT_ON_DESC', '{DB_POS_COLOR}+' || Combat || '{LOC_OP_RESOURCE_COMBAT_DESC_SUFFIX} {LOC_OP_' || God || '_RESOURCES}', 'en_US' FROM OP_Resource_Yields WHERE Combat > 0 AND God != 'POSEIDON' ;
+		
+INSERT OR REPLACE INTO LocalizedText (Tag, Text, Language)
+	SELECT DISTINCT 'LOC_OP_ABILITY_' || God || '_COMBAT_ON_DESC', '{DB_POS_COLOR}+' || Combat || '{LOC_OP_RESOURCE_COMBAT_DESC_SUFFIX} {LOC_OP_' || God || '_RESOURCES} or {LOC_OP_' || God || '_TILE_TYPE}', 'en_US' FROM OP_Resource_Yields WHERE Combat > 0 AND God = 'POSEIDON' ;
+
+INSERT OR REPLACE INTO LocalizedText (Tag, Text, Language)
+	SELECT DISTINCT 'LOC_OP_' || God || '_COMBAT_ON_PREVIEW', '{DB_POS_VALUE_DARK_BG} {LOC_OP_ABILITY_' || God || '_COMBAT_ON_NAME}', 'en_US' FROM OP_Resource_Yields WHERE Combat > 0 ;
+
+INSERT OR REPLACE INTO LocalizedText (Tag, Text, Language)
+	SELECT DISTINCT 'LOC_OP_ABILITY_' || God || '_COMBAT_TO_NAME', '{LOC_OP_' || God || '}', 'en_US' FROM OP_Resource_Yields WHERE Combat > 0 ;
+
+INSERT OR REPLACE INTO LocalizedText (Tag, Text, Language)
+	SELECT DISTINCT 'LOC_OP_ABILITY_' || God || '_COMBAT_TO_DESC', '{DB_POS_COLOR}+' || Combat || '{LOC_OP_RESOURCE_COMBAT_DESC_SUFFIX} {LOC_OP_' || God || '_RESOURCES}', 'en_US' FROM OP_Resource_Yields WHERE Combat > 0 ;
+		
+INSERT OR REPLACE INTO LocalizedText (Tag, Text, Language)
+	SELECT DISTINCT 'LOC_OP_' || God || '_COMBAT_TO_PREVIEW', '{DB_POS_VALUE_DARK_BG} {LOC_OP_ABILITY_' || God || '_COMBAT_TO_NAME}', 'en_US' FROM OP_Resource_Yields WHERE Combat > 0 ;
+
+-- Terrain pantheons
+INSERT OR REPLACE INTO LocalizedText (Tag, Text, Language)
+	SELECT DISTINCT 'LOC_OP_ABILITY_WORSHIPS_' || God || '_DESC', '{LOC_OP_WORSHIPS_TILE_DESC_PREFIX} {LOC_OP_' || God || '_TILE_TYPE} {LOC_OP_WORSHIPS_TILE_DESC_SUFFIX}', 'en_US' FROM OP_Terrains WHERE God NOT IN ('POSEIDON', 'ZEUS') ;
+
+INSERT OR REPLACE INTO LocalizedText (Tag, Text, Language)
+	SELECT DISTINCT 'LOC_OP_ABILITY_' || God || '_COMBAT_ON_NAME', '{LOC_OP_' || God || '}', 'en_US' FROM OP_Terrains WHERE Combat > 0 ;			-- '{LOC_OP_' || God || '} (on)', 'en_US' FROM OP_Terrains WHERE Combat > 0 ;
+
+INSERT OR REPLACE INTO LocalizedText (Tag, Text, Language)
+	SELECT DISTINCT 'LOC_OP_ABILITY_' || God || '_COMBAT_ON_DESC', '{DB_POS_COLOR}+' || Combat || '{LOC_OP_TILE_COMBAT_DESC_SUFFIX} {LOC_OP_' || God || '_TILE_TYPE}', 'en_US' FROM OP_Terrains WHERE Combat > 0 AND God NOT IN ('ZEUS') ;
+
+INSERT OR REPLACE INTO LocalizedText (Tag, Text, Language)
+	SELECT DISTINCT 'LOC_OP_' || God || '_COMBAT_ON_PREVIEW', '{DB_POS_VALUE_DARK_BG} {LOC_OP_ABILITY_' || God || '_COMBAT_ON_NAME}', 'en_US' FROM OP_Terrains WHERE Combat > 0 ;
+
+INSERT OR REPLACE INTO LocalizedText (Tag, Text, Language)
+	SELECT DISTINCT 'LOC_OP_ABILITY_' || God || '_COMBAT_TO_NAME', '{LOC_OP_' || God || '}', 'en_US' FROM OP_Terrains WHERE Combat > 0 ;			-- '{LOC_OP_' || God || '} (to)', 'en_US' FROM OP_Terrains WHERE Combat > 0 ;
+
+INSERT OR REPLACE INTO LocalizedText (Tag, Text, Language)
+	SELECT DISTINCT 'LOC_OP_ABILITY_' || God || '_COMBAT_TO_DESC', '{DB_POS_COLOR}+' || Combat || '{LOC_OP_TILE_COMBAT_DESC_SUFFIX} {LOC_OP_' || God || '_TILE_TYPE}', 'en_US' FROM OP_Terrains WHERE Combat > 0 AND God NOT IN ('ZEUS') ;
+
+INSERT OR REPLACE INTO LocalizedText (Tag, Text, Language)
+	SELECT DISTINCT 'LOC_OP_' || God || '_COMBAT_TO_PREVIEW', '{DB_POS_VALUE_DARK_BG} {LOC_OP_ABILITY_' || God || '_COMBAT_TO_NAME}', 'en_US' FROM OP_Terrains WHERE Combat > 0 ;
+
+-- Feature pantheons
+INSERT OR REPLACE INTO LocalizedText (Tag, Text, Language)
+	SELECT DISTINCT 'LOC_OP_ABILITY_WORSHIPS_' || God || '_DESC', '{LOC_OP_WORSHIPS_TILE_DESC_PREFIX} {LOC_OP_' || God || '_TILE_TYPE} {LOC_OP_WORSHIPS_TILE_DESC_SUFFIX}', 'en_US' FROM OP_Features WHERE God NOT IN ('HEPHAESTUS') ;
+
+INSERT OR REPLACE INTO LocalizedText (Tag, Text, Language)
+	SELECT DISTINCT 'LOC_OP_ABILITY_' || God || '_COMBAT_ON_NAME', '{LOC_OP_' || God || '}', 'en_US' FROM OP_Features WHERE Combat > 0 ;
+
+INSERT OR REPLACE INTO LocalizedText (Tag, Text, Language)
+	SELECT DISTINCT 'LOC_OP_ABILITY_' || God || '_COMBAT_ON_DESC', '{DB_POS_COLOR}+' || Combat || '{LOC_OP_TILE_COMBAT_DESC_SUFFIX} {LOC_OP_' || God || '_TILE_TYPE}', 'en_US' FROM OP_Features WHERE Combat > 0 ;
+
+INSERT OR REPLACE INTO LocalizedText (Tag, Text, Language)
+	SELECT DISTINCT 'LOC_OP_' || God || '_COMBAT_ON_PREVIEW', '{DB_POS_VALUE_DARK_BG} {LOC_OP_ABILITY_' || God || '_COMBAT_ON_NAME}', 'en_US' FROM OP_Features WHERE Combat > 0 ;
+
+INSERT OR REPLACE INTO LocalizedText (Tag, Text, Language)
+	SELECT DISTINCT 'LOC_OP_ABILITY_' || God || '_COMBAT_TO_NAME', '{LOC_OP_' || God || '}', 'en_US' FROM OP_Features WHERE Combat > 0 ;
+
+INSERT OR REPLACE INTO LocalizedText (Tag, Text, Language)
+	SELECT DISTINCT 'LOC_OP_ABILITY_' || God || '_COMBAT_TO_DESC', '{DB_POS_COLOR}+' || Combat || '{LOC_OP_TILE_COMBAT_DESC_SUFFIX} {LOC_OP_' || God || '_TILE_TYPE}', 'en_US' FROM OP_Features WHERE Combat > 0 ;
+
+INSERT OR REPLACE INTO LocalizedText (Tag, Text, Language)
+	SELECT DISTINCT 'LOC_OP_' || God || '_COMBAT_TO_PREVIEW', '{DB_POS_VALUE_DARK_BG} {LOC_OP_ABILITY_' || God || '_COMBAT_TO_NAME}', 'en_US' FROM OP_Features WHERE Combat > 0 ;
+
+-- Appeal pantheons
+INSERT OR REPLACE INTO LocalizedText (Tag, Text, Language)
+	SELECT DISTINCT 'LOC_OP_ABILITY_WORSHIPS_' || God || '_DESC', '{LOC_OP_WORSHIPS_TILE_DESC_PREFIX} {LOC_OP_' || God || '_TILE_TYPE} {LOC_OP_WORSHIPS_TILE_DESC_SUFFIX}', 'en_US' FROM OP_Appeal  ;
+
+INSERT OR REPLACE INTO LocalizedText (Tag, Text, Language)
+	SELECT DISTINCT 'LOC_OP_ABILITY_' || God || '_COMBAT_ON_NAME', '{LOC_OP_' || God || '}', 'en_US' FROM OP_Appeal WHERE Combat > 0 ;
+
+INSERT OR REPLACE INTO LocalizedText (Tag, Text, Language)
+	SELECT DISTINCT 'LOC_OP_ABILITY_' || God || '_COMBAT_ON_DESC', '{DB_POS_COLOR}+' || Combat || '{LOC_OP_TILE_COMBAT_DESC_SUFFIX} {LOC_OP_' || God || '_TILE_TYPE}', 'en_US' FROM OP_Appeal WHERE Combat > 0 ;
+
+INSERT OR REPLACE INTO LocalizedText (Tag, Text, Language)
+	SELECT DISTINCT 'LOC_OP_' || God || '_COMBAT_ON_PREVIEW', '{DB_POS_VALUE_DARK_BG} {LOC_OP_ABILITY_' || God || '_COMBAT_ON_NAME}', 'en_US' FROM OP_Appeal WHERE Combat > 0 ;
+
+INSERT OR REPLACE INTO LocalizedText (Tag, Text, Language)
+	SELECT DISTINCT 'LOC_OP_ABILITY_' || God || '_COMBAT_TO_NAME', '{LOC_OP_' || God || '}', 'en_US' FROM OP_Appeal WHERE Combat > 0 ;
+
+INSERT OR REPLACE INTO LocalizedText (Tag, Text, Language)
+	SELECT DISTINCT 'LOC_OP_ABILITY_' || God || '_COMBAT_TO_DESC', '{DB_POS_COLOR}+' || Combat || '{LOC_OP_TILE_COMBAT_DESC_SUFFIX} {LOC_OP_' || God || '_TILE_TYPE}', 'en_US' FROM OP_Appeal WHERE Combat > 0 ;
+
+INSERT OR REPLACE INTO LocalizedText (Tag, Text, Language)
+	SELECT DISTINCT 'LOC_OP_' || God || '_COMBAT_TO_PREVIEW', '{DB_POS_VALUE_DARK_BG} {LOC_OP_ABILITY_' || God || '_COMBAT_TO_NAME}', 'en_US' FROM OP_Appeal WHERE Combat > 0 ;

@@ -1,0 +1,4 @@
+UPDATE LocalizedText SET Text = REPLACE(Text, 'newly trained ones get', 'newly trained Missionaries and Apostles get') || '{LOC_GOLD_LABEL}' WHERE Tag = 'LOC_MOMENT_CATEGORY_RELIGIOUS_BONUS_GOLDEN_AGE' AND Language = 'en_US' ;
+UPDATE LocalizedText SET Text = REPLACE(Text, 'newly trained ones get', 'newly trained Missionaries and Apostles get') || '{LOC_GOLD_LABEL}' WHERE Tag = 'LOC_PEDIA_CONCEPTS_PAGE_DEDICATIONS_CHAPTER_CONTENT_PARA_4' AND Language = 'en_US' ;
+UPDATE LocalizedText SET Text = REPLACE(Text, 'newly trained ones get', 'newly trained Missionaries and Apostles get') || '{LOC_GOLD_LABEL}' WHERE Tag = 'LOC_PEDIA_CONCEPTS_PAGE_DEDICATIONS_CHAPTER_CONTENT_PARA_8' AND Language = 'en_US' ;
+UPDATE LocalizedText SET Text = REPLACE(Text, 'newly trained ones get', 'newly trained Missionaries and Apostles get') || '{LOC_GOLD_LABEL}' WHERE Tag = 'LOC_POLICY_EXODUS_OF_THE_EVANGELISTS_DESCRIPTION' AND Language = 'en_US' ;

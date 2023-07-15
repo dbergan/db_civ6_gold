@@ -1,0 +1,5 @@
+-- Siege
+INSERT INTO UnitPromotionPrereqs ('UnitPromotion', 'PrereqUnitPromotion') VALUES
+('PROMOTION_SHRAPNEL', 'PROMOTION_CREW_WEAPONS'),
+('PROMOTION_SHELLS', 'PROMOTION_GRAPE_SHOT')
+;

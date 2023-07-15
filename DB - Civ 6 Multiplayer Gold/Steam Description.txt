@@ -1,0 +1,520 @@
+[b]Compatible with every version of Civ VI[/b]
+
+Subscribe to this mod, and unsubscribe from all my other ones. I do not plan to update any of my other mods, just this one. I likely won't even respond to comments on those mods.
+
+[hr][/hr]
+[h1]Description[/h1]
+[i]"At a higher level, these increased player choices – or as Sid would put it, 'interesting decisions' – are a theme which can be found throughout Civ IV."[/i] (Civilization IV player manual)
+
+[i]"According to Sid Meier, a [good] game is a series of [b][u]interesting choices[/u][/b]. In an interesting choice, no single option is clearly better than the other options, the options are not equally attractive, and the player must be able to make an informed choice."[/i] [url=http://www.half-real.net/dictionary/#interestingchoices]Rollings & Morris (2000)[/url]
+
+This mod represents how I prefer to play Civ VI. The essence of it is to try to create more interesting decisions for the player. What does that mean?
+- Try to make all districts equally valuable so that when you commit to a Campus there is pain for not-having a Holy Site or Commercial Hub.
+- Try to make all paths of victory viable so that if you go all-in with military, you're leaving yourself vulnerable to a religious takeover.
+- Religion is potentially much more powerful (which can have dozens of beliefs if your opponents fail to contest the Great Prophets), but when you spread it to foreign nations, you give all its benefits to your opponents.
+- The mod encourages "tall" play to earn decent science, culture, and great people points... so that if you just spam settlers, you'll probably fall behind.
+- Ancient Walls no longer provide a ranged strike (so you'll have to keep an active military throughout the beginning of the game), but Renaissance Walls provide two. You learn techs from other civilizations.
+- You get money from tourism so there's a good reason to get it aside from a cultural victory
+- The pantheons are extreme... they provide bonuses in very limited circumstances (e.g. Apollo only favors Sheep) but the bonuses are so strong that players are filled with murderous rage when they see their "holy ground" occupied by someone else.
+- Units hide in trees, so you need to bring scouts on your war campaigns.
+- Wonders, Theaters, and Entertainment Complexes provide loyalty pressure on all nearby cities. And when you have some net loyalty pressure on a foreign city, you get some vision in that city (so there's a good reason to pursue loyalty even when you can't cause an opponent's cities to rebel).
+
+Additionally, this mod cleans up many aspects of Civ VI. It fixes several promotions that weren't described properly. It provides nuanced explanations of important concepts like unit combat, city combat, and embarked units so that you don't have to Google those things on the side. It gives you a better combat preview and a detailed notification of the actual outcome of your battle (which is incredibly useful in a Hotseat or Play By Cloud game). Great Generals and Admirals enhance all units that come before them (e.g. Napoleon would have no problem leading an army of swordsmen and knights).
+
+[hr][/hr]
+[h1]Details[/h1]
+[url=https://steamcommunity.com/workshop/filedetails/discussion/2533573440/3046104862453093030/]Details of every Game Option[/url]. Too lengthy to fit on this page!
+
+[hr][/hr]
+[h1]Quick Start: Single-player[/h1]
+Just subscribe to this mod and play. 
+
+[hr][/hr]
+[h1]Quick Start: Multiplayer[/h1]
+- Subscribe to this mod. 
+- On the Game Setup screen, scroll down to the "Only Multiplayer" section and check all of them. 
+- Play.
+
+[hr][/hr]
+[h1]Background[/h1]
+The Civilization series came to life for me with "Civilization II: Multiplayer Gold Edition." I had casually checked out the predecessors at friends' houses, but it was the multiplayer capability of the Gold edition that led me into civ fanatacism.
+
+Multiplayer is still what I prefer to play. I don't get nearly the satisfaction beating soulless computers that I do from besting my brother. And while Civ VI has good multiplayer capabilities, my impression is that the game was fundamentally designed as a single-player game. For example, why does every civilization and leader have its own unique bonuses and units? In single-player that gives the game loads of replayability. I have to do things much differently when I'm Gandhi than when I'm Alexander. I get a whole new experience and also get to learn about some of the history that makes those societies unique.
+
+But for multiplayer, this design choice is trouble because it's next to impossible to balance the bonuses and units for 30+ civilizations. One guy starts with Columbia's free movement and free comandante generals (that stack an additional +5 CS on top of normal great generals), and another guy starts with stepwells. Again, for single-player that's not terrible. It doesn't all have to be balanced to have an enjoyable game. But neither I nor my brothers want to play out a game with such a severe handicap.
+
+I have a lot of mods here at the Steam Workshop, and most of them are just tiny little tweaks. Things like limiting religious units to only 2 movement or removing the condemn heretic function. But here's the deal: these tweaks were designed to work together. I created them as separate mods originally because I want players to be able to customize the game to their liking [i]a la carte[/i]. But when you're starting up a multiplayer game it is extremely cumbersome to get all the players to subscribe to 31 different mods. And how do I communicate to my followers that I no longer think a certain tweak should be used anymore?
+
+The breakthrough for me was when I learned how to bundle all these tweaks together as Advanced Game Setup options. And this is the mod that has them all. 
+
+
+[hr][/hr]
+[h1]Compatible Mods[/h1]
+These are the mods that I currently play with so I'm 100% sure that they're compatible. The ones marked with an asterisk (*) involved special coding in this mod to make them compatible.
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=1307248778]Alternate Policy Screen[/url]
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=1958135962]Better Balanced Starts[/url] *
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=1312585482]Better Report Screen[/url] *
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=873246701]Better Trade Screen[/url]
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=1601259406]Enhanced Mod Manager[/url]
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=1709115371]Map Search Extension[/url]
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=1658551717]Quick Start[/url]
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=1628605090]Radial Measuring Tool[/url]
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=1517706192]Sukritact's Better Great Person Screen[/url] *
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=939149009]Sukritact's Simple UI Adjustments[/url] *
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=871412359]Tactical Camera by Tom Illar[/url]
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=870850597]Tomatekh's Historical Religions[/url]
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=1472662589]Vibrant Waters[/url]
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=2204338344]Z Tactical View Mode - War Focus[/url]
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=1780895460]Z Unit Marks[/url] *
+
+
+
+
+
+
+
+
+
+Discussion Thread Title:
+Game Option List
+
+
+[h1]ECONOMIC OPTIONS[/h1]
+
+
+[h1]Learn From Other Civs[/h1]
+It's harder to invent the wheel than to reinvent it.
+
+Whenever another civ that you've met has completed a tech/civic, you get a science/culture bonus while you are researching it, and a bigger bonus if you have Diplomatic Visibility on them (e.g. spies, embassies, open borders, alliances, etc).
+
+
+[h1]Olympic Pantheons[/h1]
+- The pantheon choices are all replaced with powerful geography-based beliefs with names from Greek mythology. The idea is to provide big bonuses on desolate (like deserts or tundra) or singular types of terrain (like cattle or sheep) that thus becomes your "holy ground". You also get combat bonuses on this turf, which creates a huge incentive to forcibly take over someone else's city when they aren't respecting your holy ground. Or sacred cows.
+
+- Resources and Marshes can no longer be removed, either by a builder or by placing a district (otherwise you could just harvest away your enemy's resource type)
+-- This overrides the "Districts on Resources" game option
+
+
+[h1]All Cities Like Sugar[/h1]
+Luxury resources provide amenities to all your cities, not just 4
+
+
+[h1]Gold From Tourism[/h1]
+Foreign tourists provide your empire with gold per turn.
+
+
+[h1]People Create, Not Empty Buildings[/h1]
+This option changes how districts provide yields. It's the people that create the yields, moreso than the buildings. A mine doesn't really benefit you unless it's being worked, so neither should districts. However, even though it now takes population to make your faith/science/culture/gold/production, you can get higher yields than before.
+
+Details:
+
+1) The districts themselves now include a specialist slot
+2) The inherent yields from the district buildings were reduced by 1 each
+3) Each building increases the yields for their specialists by 1
+
+Consider the campus:
+- Campus specialists start out making 1 Science
+- For each campus building, all specialists make an additional Science, thus when you have a library and university, each specialist will make 3 Science
+- The campus district itself and each building includes a specialist slot, so if you have a library and university, you can have 3 citizens working the campus tile
+- Each building inherently makes one fewer Science, so now the library itself only generates 1 Science and the university 3 Science
+
+Affected districts include:
+- Campus (Seowon, Observatory)
+- Commercial Hub (Suguba)
+- Encampment (Ikanda)
+- Harbor (Cothon, Royal Navy Dockyard)
+- Holy Site (Lavra)
+- Industrial Zone (Hansa, Oppidum)
+- Theater Square (Acropolis)
+
+
+[h1]Water Mills: Food on Farms[/h1]
+- Water Mills add 1 food to all farms in the city (instead of the food bonus on only Rice, Wheat, and Maize)
+- Water Mills no longer provide the inherent +1 food and +1 production
+
+
+[h1]Districts On Resources[/h1]
+- Districts may be placed on Resource tiles, but placing the district (not finishing it) immediately removes the resource for no benefit
+-- Note: With Olympic Pantheons, this option has no effect (Olympic Pantheons overrides the option of removing resources)
+
+
+[h1]Great Merchants are Merchants[/h1]
+- All great merchants grant a trade route in addition to their other abilities... otherwise great merchants tend to be weak compared to the other great people. Commercial hubs and their buildings are thus more desirable.
+
+
+[h1]Lighthouses Remove Their Trade Route[/h1]
+- Lighthouses no longer provide a trade route so that they don't super-dominate markets. Commercial hubs and markets are thus more desirable.
+
+
+[h1]Remove Government Plazas[/h1]
+- Never been a huge fan of the district, but especially don't like how the Grandmaster's Chapel affects the game. Faith is for making missionaries, and that's that.
+
+
+[h1]Science Per Population[/h1]
+- The amount of science each population in your cities inherently generates (i.e. generated without help from districts, buildings, worked tiles, governors, policies etc.). Without this mod, it would be 0.50 (or 0.70 if playing without Rise & Fall or Gathering Storm). I believe it should be 0.30 or lower so that players have to earn science, not just automatically get it from growing cities. This also slows down tech tree progress so that you aren't developing nukes in the 1800s. A slowing effect is definitely needed when playing with the "Learn From Other Civs" option.
+
+
+[h1]Remove Eurekas[/h1]
+- Removes the organic eurekas (i.e. tech boosts) from the game. Eurekas are now acquired only by tribal villages, spies, great people, or wonders. Slows down the rate at going through the tech tree, and your civilization doesn't have to frantically do dozens of random "side-quests" to keep up with other civs. A slowing effect is definitely needed when playing with the "Learn From Other Civs" option.
+
+
+[h1]Culture Per Population[/h1]
+- The amount of culture each population in your cities inherently generates (i.e. generated without help from districts, buildings, worked tiles, governors, policies, etc.). Without this mod, it would be 0.30. A slowing effect is definitely needed when playing with the "Learn From Other Civs" option.
+
+
+[h1]Remove Inspirations[/h1]
+- Removes the organic inspirations (i.e. civic boosts) from the game. Inspirations are now acquired only by tribal villages, great people, or wonders. Slows down the rate at going through the civic tree, and your civilization doesn't have to frantically do dozens of random "side-quests" to keep up with other civs. A slowing effect is definitely needed when playing with the "Learn From Other Civs" option.
+
+
+[h1]Theater Squares: Better Adjacencies[/h1]
+- Theater Squares get +1 culture for each adjacent district (instead of +1 culture for every two), +1 culture when placed on a tile with Charming Appeal, and +2 culture when placed on a tile with Breathtaking Appeal. They still have their adjacencies for wonders (+2), Entertainment Districts (+2), and Water Parks (+2). Makes Theater Squares more desirable.
+
+
+[h1]Monuments: No Culture[/h1]
+- Monuments no longer give culture as a yield, but instead they provide the city with +2 loyalty and +100% border expansion. The Drama and Poetry civic (which unlocks Theater Squares) is moved to the Ancient Era. This makes Theater Squares more important because you can't get easy culture from your monuments.
+
+
+[h1]Monuments Provide A Build Charge[/h1]
+- Builders get an extra charge when built in a city with a monument
+
+
+
+
+
+
+
+[h1]LOYALTY OPTIONS[/h1]
+
+
+[h1]Loyalty Matters[/h1]
+- Wonders, Great Works, Theater Squares, Entertainment Complexes, Water Parks and buildings for those districts each provide 1 loyalty to all your cities within 9 tiles and -1 loyalty to all foreign cities within 9 tiles
+- Monuments provide 2 loyalty to all your cities within 9 tiles and -2 loyalty to all foreign cities within 9 tiles
+- The Foment Unrest mission for spies reduces loyalty by 100 (instead of 20), but even so, the city will not revolt unless the city's loyalty-per-turn is negative
+
+
+[h1]Disloyal Informants[/h1]
+- Gain vision in foreign cities when you have some loyalty there.
+-- 1-10 Loyalty = vision of the city center
+-- 10-19 Loyalty = 1-tile radius of vision
+-- 20+ Loyalty = 2-tile radius of vision
+
+
+
+
+
+
+
+[h1]MILITARY OPTIONS[/h1]
+
+
+[h1]Turns For Peace[/h1]
+- Adjust the duration of Peace Agreements, Declared Friendships, and Alliances
+
+
+[h1]Battle Notifications[/h1]
+- Each battle creates a notification with all the combat values involved
+- When your units die on defense, you get vision of the area for a turn
+- All players receive notifications when WMDs are launched
+
+
+[h1]XP From Observation[/h1]
+- Military units gain experience from observing adjacent melee attacks. +1 XP if next to a defending unit or an enemy unit in a melee battle. +2 XP if next to both.
+
+
+[h1]Trees Hide Units[/h1]
+- Ever wonder why an archer from two tiles away can shoot your scout while he''s hiding in a forest? With this option, any unit on a woods or rainforest tile automatically is hidden (like a privateer)... meaning they are only visible to enemy units in adjacent tiles or units that have an ability to see hidden units (like a scout).
+
+
+[h1]Better Scouts[/h1]
+- Scouts are now support units with a new promotion menu that assists nearby military units with movement, vision, and combat
+
+
+[h1]No Bad Huts[/h1]
+- Tribal Village gifts include exactly these options:
+-- Relic
+-- Tech Boost
+-- Civic Boost
+-- Envoy
+-- Trader
+-- Builder
+-- 120 Gold
+-- 100 Faith
+-- Melee Unit
+-- Ranged Unit
+-- City Population
+-- Unit Promotion
+
+
+[h1]Balanced Walls[/h1]
+ (doesn't work without Gathering Storm)
+- Ancient Walls have no ranged attack.
+- Medieval Walls get a single ranged attack with a range of 1.
+- Renaissance Walls get two ranged attacks with range of 2.
+- Victor's Embrasure promotion provides an extra ranged attack AND an extra range.
+
+
+[h1]Engineers Can Rush Walls[/h1]
+ (doesn't work without Gathering Storm) [Idea thanks to JNR]
+- Military Engineers can use a build charge to add +50%/+20%/+15% production to Ancient/Medieval/Renaissance Walls
+- Roman Legions can use a build charge to add +50% production to Ancient Walls
+
+
+[h1]Engineers Are Also Sappers[/h1]
+ (doesn't work without Gathering Storm) [Idea thanks to JNR]
+- Once the Siege Tactics tech has been learned, Melee and Anti-Cavalry units adjacent to a Military Engineer do full damage to city walls
+
+
+[h1]Siege Units: No Extra Movement[/h1]
+- Siege units don't get movement bonuses from things like Great Generals or Logistics, because when they do, they can automatically move & shoot. (They're supposed to have the Expert Crew promotion to be able to do that.)
+- The Expert Crew promotion provides +1 movement in addition to the moving and shooting ability
+
+
+[h1]Earlier Wars of Religion[/h1]
+- The Wars of Religion policy is acquired at Theology and expires at National Identity (where corps are unlocked)
+
+
+[h1]All Men Are Mortal[/h1]
+- When Great People die, they die. (Same applies to archeologists and naturalists.)
+
+
+
+
+
+
+
+
+[h1]RELIGION OPTIONS[/h1]
+
+
+[h1]Soli Deo Gloria[/h1]
+- Makes religion competitive, fun, and historical. Normally, religion is largely ignore-able. Holy Sites are a waste of a valuable district slot that could be a Campus or Harbor. The point of this mod is to make religion fun and make players pause before passing over a Holy Site. I don't want religious strategies to super-dominate... just want them to have a place at the table. Details:
+-- There is no limit to the number of religions; every civilization (except Kongo) can found its own religion.
+-- There is no limit to the number of beliefs you can have in your religion, and the beliefs are not grouped into "classes". This makes religion interesting to all victory types. Even if don't want to spam Missionaries, you might want to found a religion to get bonuses for combat strength, housing, amenities, science, culture, etc.
+-- The religious beliefs were all replaced. The new beliefs are such that they improve every city that follows the religion (never just giving a benefit to the founder only). This introduces a strategic element to spreading your religion, because as you do that you also spread its benefits. If your opponent has been neglecting religion altogether while your religion banks a ton of gold each turn with beliefs like "Acres of Diamond" and "Treasures In Heaven", converting his cities will make him rich at no effort on his part.
+-- Great Prophets are just like the other Great People. Instead of getting only one to found your religion, with SDG, you can earn subsequent Great Prophets who each add a belief to your religion. (Hence, Great Prophet points have a function beyond founding your religion.)
+-- Great Prophets act like religious Great Generals... they give your nearby religious units +1 movement and +5 combat strength.
+-- Warrior Monks no longer require a belief. They can be built from Temples by anyone.
+-- Lots of color was added to religion. Boring and generic terms were turned into more flavorful ones. There are references to polygamy, cargo cults, and "turtles all the way down". Read the civilopedia entries on the religious beliefs. I spent a lot of time on them.
+
+
+[h1]Pantheon Obelisk[/h1]
+Players have to build a Pantheon Obelisk to found their pantheon. This building is available in your capital from the beginning of the game. The building doesn't do anything after your pantheon is chosen.
+
+
+[h1]Religious Units: Only 2 Movement[/h1]
+- Missionaries, Apostles, Inquisitors and Gurus only have 2 base movement. Normally they have 4 (and can enter foreign territory), which makes them better scouts than Scouts.
+
+
+[h1]No Religious Sea-Spies[/h1]
+(doesn't work without Gathering Storm)
+- Religious units can only enter water tiles when they are adjacent to a naval unit. If a religious unit is embarked and naval units are no longer adjacent to it, it will die at the end of the turn. (The AI is exempt from this because it can't learn how to avoid drowning its units.)
+
+
+[h1]All Holy Site Buildings[/h1]
+- All level 3 Holy Site buildings (Cathedral, Mosque, Pagoda, etc.) are available when the Divine Right civic is obtained. The Worship ("building") class of beliefs is removed.
+
+
+[h1]Inquisitors: Don't Need An Inquisition[/h1]
+- Removes inquisitions from the game. Inquisitors can simply be purchased with faith from a Temple.
+
+
+[h1]Inquisitors: Purchased from Shrines[/h1]
+- Instead of Temples
+
+
+[h1]Inquisitors: Only 1 Cleanse[/h1]
+- Inquisitors only get one cleansing charge each, instead of the usual three (and don't get bonus charges from Mosques or the Exodus of the Evangelicals golden age commemoration)
+
+
+[h1]Cathedrals Hold Relics[/h1]
+- Cathedrals can hold religious art, a relic, or a piece of music. Normally they can only hold religious art.
+
+
+[h1]Kotoku-In Moved To Theology[/h1]
+- The Kotoku-In wonder moves from the Divine Right civic to the Theology civic and its production cost changes from 710 to 400
+
+
+
+
+
+
+
+
+
+
+[h1]COSMETIC OPTIONS[/h1]
+
+
+[h1]No More Stirrings[/h1]
+- Removes the text from the loading screen that goes like this:
+
+"From the first stirrings of life beneath water... to the great beasts of the Stone Age... to man taking his first upright steps, you have come far.  Now begins your greatest quest: from this early cradle of civilization on towards the stars."
+
+
+
+
+
+
+
+[h1]MULTIPLAYER OPTIONS (THAT WORK IN SINGLE PLAYER)[/h1]
+
+
+[h1]Remove Civ/Leader Traits[/h1]
+- Removes all leader and civ traits (bonuses, unique units, start location biases, etc.). No special snowflakes.
+
+[i]With single player, it can be fun to have unique traits to guide you as you play through your story. But I feel that in multiplayer the leaders aren't balanced and so rather than playing a game where it's one player's skill against another, it's mostly about who chose (or was dealt) the strongest leader.
+
+Consider playing a chess game where one player starts with an extra knight at the beginning of the game, but 30-moves later the other player gets an extra queen. That could be an interesting game, but it's less a contest about the players' own chess skills and more about which "bonus unit" is overall better. This option makes it more like a game where all sides start with the same pieces.[/i]
+
+
+[h1]Remove Unit Upgrades[/h1]
+- Units can no longer upgrade, so that ancient era units with promotions won't snowball into unstoppable world-dominating monsters with no counter.
+- Buildings, Great Generals, policies, and other effects that provide a percent experience bonus have that bonus increased. (e.g., a Barracks gives units +75% experience instead of +25%)
+- Promotions no longer heal
+- The Warrior Monk promotions that increase Combat Strength only increase it on attack
+
+
+[h1]Remove Foreign Info[/h1]
+- No clairvoyance. You don't get to automatically know everything about every other civilization.
+-- Removes world rankings screen
+-- Removes stats from the leader ribbons
+-- Removes info about cities that are in the fog of war (e.g. their defensive strength, city health, wall health, population size)
+-- Removes info about foreign religions on the religion screen
+-- Removes the leader icons on the bottom of the Tech and Civic trees
+-- Removes info about the foreign government's type the Diplomacy screen
+-- Removes info about relationships with other leaders on the Diplomacy screen
+-- Removes city information from the dealmaker screen
+-- Removes gold/resource quantity info from the dealmaker screen
+-- Removes info about foreign progress toward great people
+-- Great person recruitment notifications (and history) are anonymous
+-- Wonder completion notifications are anonymous
+
+
+[h1]Double Spy Capacity[/h1]
+- Techs and civics that grant a spy will now grant 2. (Recommended to go with Remove Foreign Info, as the extra spies will help make up for your lack of clairvoyance.)
+
+
+[h1]Remove Golden/Dark Ages[/h1]
+
+
+[h1]Remove World Congress[/h1]
+
+
+[h1]Remove Emergencies[/h1]
+
+
+[h1]Remove Plunder Policies[/h1]
+- Remove the plundering and pillaging government policies, because they allow massive yields for exploiting a weaker player.
+
+
+[h1]Remove 1-Turn Policies[/h1]
+- Removes:
+-- Professional Army
+-- Retinues
+-- Force Modernization
+-- Land Surveyors
+-- Expropriation
+
+[i]I don't like the play where you save up all your cash, and then game the civics tree so that you upgrade all your soldiers (or buy a bunch of tiles) for discount like so:
+
+1) Learn all-but-1-turn on civic A, then switch to civic B
+2) When you finish civic B you select civic A and the Professional Army policy
+3) Upgrade all your army for half-price
+4) Next turn you finish civic A and switch off Professional Army[/i]
+
+
+
+
+
+[h1]ONLY MULTIPLAYER OPTIONS[/h1]
+
+
+[i]Highly recommend selecting all of these for your multiplayer game. They are disabled by default because the AI has a hard time with them.[/i]
+
+
+[h1]Remove Condemn Heretic[/h1]
+- Removes the Condemn Heretic action from military units for human players. (The AI will still condemn heretics.)
+
+
+[h1]Militiary Alliance Only Vision (doesn't work without Rise and Fall)[/h1]
+- No Combat Bonus
+[i]When Military Alliances give a +5 Strength bonus, it amplifies the king-making dynamic already present in ffa games. I mean it's bad enough that one guy is getting double-teamed by his brothers, why should all their units get +5 for doing so? Second, it squashes the incentive to gift a player a city just to keep him alive for your +5 strength bonus.[/i]
+
+
+[h1]Difficulty = Combat Strength[/h1]
+Human players' units get a built-in Combat Strength bonus based on the difficulty setting they choose at the beginning of the game. Useful for handicapping multiplayer games that involve players of different abilities.
+
+The Combat Strength values are always listed on the difficulty selection boxes during game setup, but they will only be in effect in the game when this option is selected.
+
+
+[h1]Great People Come From People[/h1]
+This option changes how districts provide great people points. Great people now come from people. Each specialist creates a Great Person Point, and the (empty) districts and buildings do not.
+
+Highly, highly recommended for multiplayer, but disabled by default because the AI can't figure out how to make great people points when this option is enabled.
+
+Affected districts include:
+- Campus (Seowon, Observatory)
+- Commercial Hub (Suguba)
+- Encampment (Ikanda)
+- Harbor (Cothon, Royal Navy Dockyard)
+- Holy Site (Lavra)
+- Industrial Zone (Hansa, Oppidum)
+- Theater Square (Acropolis)
+
+Known bug:
+- The code is written such that each specialist should provide one great person point, but in testing I noticed that it instead gives two points per specialist. Firaxis, if you're reading this, table "District_CitizenGreatPersonPoints" is not functioning accurately.
+
+
+[h1]All Religions Can Have Custom Names[/h1]
+- The names for all religions can be customized, but the AI chooses blank names
+
+
+
+
+
+
+
+
+[h1]HOP ONS[/h1]
+
+
+[h1]Better Roads[/h1]
+- Ancient Roads support bridges and all roads are slightly faster
+
+
+[h1]Reveal Strategic Resources[/h1]
+- Strategic resources are visible from the beginning of the game, but the yield bonuses were taken away (e.g. the +Science on Iron). You can build cities and improvements on these resources in the Ancient era, however, you won't gather, say, Uranium, until you have Combined Arms. Also, the "Hephaestus" belief from Olympic Pantheons and the "I am Death" belief from Soli Deo Gloria are removed.
+
+
+[h1]Soli Deo Gloria: More Belief Options[/h1]
+ doesn't work without Gathering Storm)
+- Includes belief options that I retired from the main set
+
+
+[h1]Soli Deo Gloria: Double Beliefs[/h1]
+- Players get 2 beliefs for each Great Prophet instead of just 1
+
+
+[h1]Combat Doesn't Pressure[/h1]
+- Theological Combat no longer affects the religious pressure in nearby cities
+
+
+[h1]Buy Holy Site Buildings With Faith[/h1]
+- All Holy Site buildings can be purchased with gold or faith by default
+
+
+[h1]Weak Martyrs[/h1]
+- Apostles with a Martyr promotion lose 100 combat strength (110 --> 10; spread strength does not change). They still create a relic upon death.
+
+
+[h1]Remove Heathen Conversion[/h1]
+- Removes the Heathen Conversion promotion option from Apostles
+
+
+
+
+LOCK THREAD
+
+PIN THREAD
+
+URL THREAD FROM MAIN DESC

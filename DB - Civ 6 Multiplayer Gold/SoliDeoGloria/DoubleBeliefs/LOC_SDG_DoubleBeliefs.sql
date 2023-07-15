@@ -1,0 +1,31 @@
+INSERT OR REPLACE INTO LocalizedText 
+(Tag, Text, Language) VALUES
+('LOC_UI_RELIGION_CHOOSE_RELIGION_BELIEF', 
+  'Choose a flavor quote, then two beliefs', 
+    'en_US'),
+('LOC_GREATPERSON_ACTION_EFFECT_FOUND_RELIGION', 
+  'Founds a Religion, and establishes this city as a Holy City. Or adds two beliefs to your existing Religion.', 
+    'en_US'),
+('LOC_PEDIA_CONCEPTS_PAGE_FAITH_4_CHAPTER_CONTENT_PARA_1', 
+  'You may found your Religion once you have earned (or purchased) a[ICON_GreatProphet]Great Prophet. Religious buildings will accumulate the[ICON_GreatProphet]Great Prophet points necessary to bring this special unit to your civilization. After the[ICON_GreatProphet]Great Prophet has been earned, send the unit to your [ICON_DISTRICT_HOLYSITE]Holy Site, and then found your Religion. [ICON_GreatProphet]Great Prophets may also be earned from Stonehenge.  Subsequent[ICON_GreatProphet]Great Prophets add two new beliefs to your religion.', 
+    'en_US'),
+('LOC_PEDIA_CONCEPTS_PAGE_FAITH_5_CHAPTER_CONTENT_PARA_1', 
+  'After founding your Religion, you will be prompted to choose a name and icon to represent your beliefs. You may choose a historical Religion, or create one of your own! A newly established Religion will consist of two belief. Once your Religion is founded, all of your cities with [ICON_DISTRICT_HOLYSITE]Holy Sites will automatically convert to the Religion.', 
+    'en_US'),
+('LOC_RELIGIONPANEL_NEXT_STEP_EARN_PROPHET', 
+  'Earn a Great Prophet to start a full Religion (which adds two Beliefs).', 
+    'en_US'),
+('LOC_RELIGIONPANEL_NEXT_STEP_EVANGELIZE_BELIEF', 
+  'Earn another Great Prophet to add two more Beliefs.', 
+    'en_US'),
+('LOC_UI_RELIGION_LOCKED_BELIEF_DESCRIPTION', 
+  'Use a Great Prophet to add two new beliefs.', 
+    'en_US'),
+('LOC_SDG_PROMOTION_PROPHET_BELIEF', 
+  'Add 2 Beliefs', 
+    'en_US'),
+('LOC_SDG_PROMOTION_PROPHET_BELIEF_DESC', 
+  'Adds two new beliefs to your religion.', 
+    'en_US')
+	
+;

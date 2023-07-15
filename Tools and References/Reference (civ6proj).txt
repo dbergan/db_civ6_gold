@@ -1,0 +1,21 @@
+	<Criteria id="Expansion1"><GameCoreInUse>Expansion1,Expansion2</GameCoreInUse></Criteria>
+	<Criteria id="Expansion2"><GameCoreInUse>Expansion2</GameCoreInUse></Criteria>
+	<Criteria id="ETHIOPIA_DLC"><ModInUse>1B394FE9-23DC-4868-8F0A-5220CB8FB427</ModInUse></Criteria>
+	<Criteria id="BETTER_REPORT_SCREEN"><ModInUse>6f2888d4-79dc-415f-a8ff-f9d81d7afb53</ModInUse></Criteria>
+	<Criteria id="SUKRITACTS_UI"><ModInUse>805cc499-c534-4e0a-bdce-32fb3c53ba38</ModInUse></Criteria>
+	<Criteria id="SUKRITACTS_GREAT_PERSON_SCREEN"><ModInUse>bcfc3174-aedb-457f-bd12-df2fb715d09f</ModInUse></Criteria>
+	<Criteria id="NO_SUKRITACTS_GREAT_PERSON_SCREEN"><ModInUse inverse="1">bcfc3174-aedb-457f-bd12-df2fb715d09f</ModInUse></Criteria>
+	<Criteria id="Z_UNIT_MARKS"><ModInUse>60ba8267-a681-4145-8359-3e5d1d97a0bc</ModInUse></Criteria>
+
+	<Criteria id="DB_LEARN_FROM_OTHER_CIVS"><ConfigurationValueMatches><ConfigurationId>DB_LEARN_FROM_OTHER_CIVS</ConfigurationId><Group>Game</Group><Value>1</Value></ConfigurationValueMatches></Criteria>
+
+
+	<Criteria id="DB_CulPerPop15"><ConfigurationValueMatches><ConfigurationId>DB_CULTURE_PER_POP</ConfigurationId><Group>Game</Group><Value>15</Value></ConfigurationValueMatches></Criteria>
+	<Criteria id="DB_CulPerPop20"><ConfigurationValueMatches><ConfigurationId>DB_CULTURE_PER_POP</ConfigurationId><Group>Game</Group><Value>20</Value></ConfigurationValueMatches></Criteria>
+	<Criteria id="DB_CulPerPop25"><ConfigurationValueMatches><ConfigurationId>DB_CULTURE_PER_POP</ConfigurationId><Group>Game</Group><Value>25</Value></ConfigurationValueMatches></Criteria>
+	<Criteria id="DB_CulPerPop30"><ConfigurationValueMatches><ConfigurationId>DB_CULTURE_PER_POP</ConfigurationId><Group>Game</Group><Value>30</Value></ConfigurationValueMatches></Criteria>
+	
+	<Criteria id="DB_SciPerPop15"><ConfigurationValueMatches><ConfigurationId>DB_SCIENCE_PER_POP</ConfigurationId><Group>Game</Group><Value>15</Value></ConfigurationValueMatches></Criteria>
+	<Criteria id="DB_SciPerPop20"><ConfigurationValueMatches><ConfigurationId>DB_SCIENCE_PER_POP</ConfigurationId><Group>Game</Group><Value>20</Value></ConfigurationValueMatches></Criteria>
+	<Criteria id="DB_SciPerPop25"><ConfigurationValueMatches><ConfigurationId>DB_SCIENCE_PER_POP</ConfigurationId><Group>Game</Group><Value>25</Value></ConfigurationValueMatches></Criteria>
+	<Criteria id="DB_SciPerPop30"><ConfigurationValueMatches><ConfigurationId>DB_SCIENCE_PER_POP</ConfigurationId><Group>Game</Group><Value>30</Value></ConfigurationValueMatches></Criteria>

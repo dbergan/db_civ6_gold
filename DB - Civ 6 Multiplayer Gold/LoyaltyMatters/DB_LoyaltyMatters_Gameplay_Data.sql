@@ -1,0 +1,109 @@
+-- FOMENT UNREST
+
+UPDATE GlobalParameters SET Value = -100 WHERE Name = 'ESPIONAGE_FOMENT_UNREST_BASE_LOYALTY_CHANGE' ;
+UPDATE GlobalParameters SET Value = 0 WHERE Name = 'ESPIONAGE_FOMENT_UNREST_LEVEL_LOYALTY_CHANGE' ;
+
+-- City State immune to loyalty
+UPDATE GlobalParameters SET Value = 999 WHERE Name = 'IDENTITY_PER_TURN_FROM_CITY_STATES' ;
+
+
+-- GREAT WORKS
+
+INSERT INTO GameModifiers (ModifierId) VALUES ('DB_LM_LOYALTY_FROM_GREAT_WORKS_ALL_PLAYERS_ATTACH_MODIFIER') ;
+
+INSERT INTO Modifiers (ModifierId, ModifierType) VALUES ('DB_LM_LOYALTY_FROM_GREAT_WORKS_ALL_PLAYERS_ATTACH_MODIFIER', 'MODIFIER_ALL_PLAYERS_ATTACH_MODIFIER') ;
+INSERT INTO ModifierArguments (ModifierId, Name, Value) VALUES ('DB_LM_LOYALTY_FROM_GREAT_WORKS_ALL_PLAYERS_ATTACH_MODIFIER', 'ModifierId', 'DB_LM_LOYALTY_FROM_GREAT_WORKS') ;
+
+INSERT INTO Modifiers (ModifierId, ModifierType) VALUES ('DB_LM_LOYALTY_FROM_GREAT_WORKS', 'MODIFIER_PLAYER_ADJUST_IDENTITY_PER_TURN_FROM_NEARBY_GREAT_WORKS') ;
+INSERT INTO ModifierArguments (ModifierId, Name, Value) VALUES 
+('DB_LM_LOYALTY_FROM_GREAT_WORKS', 'Amount', 1),
+('DB_LM_LOYALTY_FROM_GREAT_WORKS', 'ForeignCities', 1),
+('DB_LM_LOYALTY_FROM_GREAT_WORKS', 'DomesticCities', 1) ;
+
+
+-- DISTRICTS & BUILDINGS
+
+INSERT OR IGNORE INTO Modifiers (ModifierId, ModifierType, SubjectRequirementSetId) VALUES ('DB_LM_MOD_MINUS_1_IDENTITY_ON_ALL_CITIES_WITHIN_9_TILES', 'DB_DM_ALL_CITIES_ADJUST_IDENTITY_PER_TURN', 'DB_REQSET_WITHIN_9_TILES') ;
+INSERT OR IGNORE INTO ModifierArguments (ModifierId, Name, Value) VALUES ('DB_LM_MOD_MINUS_1_IDENTITY_ON_ALL_CITIES_WITHIN_9_TILES', 'Amount', -1) ;
+
+INSERT OR IGNORE INTO Modifiers (ModifierId, ModifierType, SubjectRequirementSetId) VALUES ('DB_LM_MOD_PLUS_2_IDENTITY_ON_PLAYER_CITIES_WITHIN_9_TILES', 'DB_DM_PLAYER_CITIES_ADJUST_IDENTITY_PER_TURN', 'DB_REQSET_WITHIN_9_TILES') ;
+INSERT OR IGNORE INTO ModifierArguments (ModifierId, Name, Value) VALUES ('DB_LM_MOD_PLUS_2_IDENTITY_ON_PLAYER_CITIES_WITHIN_9_TILES', 'Amount', 2) ;
+
+
+DROP TABLE IF EXISTS DB_LM_Districts ;
+DROP TABLE IF EXISTS DB_LM_Buildings ;
+
+CREATE TABLE DB_LM_Districts (DistrictType VARCHAR) ;
+CREATE TABLE DB_LM_Buildings (BuildingType VARCHAR) ;
+
+INSERT INTO DB_LM_Districts (DistrictType) VALUES
+('DISTRICT_ENTERTAINMENT_COMPLEX'),
+('DISTRICT_THEATER'),
+('DISTRICT_WATER_ENTERTAINMENT_COMPLEX'),
+('DISTRICT_GOVERNMENT'),
+('DISTRICT_DIPLOMATIC_QUARTER') ;
+
+DELETE FROM DB_LM_Districts WHERE DistrictType NOT IN (SELECT DistrictType FROM Districts) ; -- Removes Diplomatic Quarter, etc if they don't have the DLC
+
+
+INSERT INTO DB_LM_Districts (DistrictType)
+	SELECT CivUniqueDistrictType FROM DistrictReplaces WHERE ReplacesDistrictType IN (SELECT DISTINCT DistrictType FROM DB_LM_Districts) ;
+
+INSERT INTO DB_LM_Buildings (BuildingType) 
+	SELECT BuildingType FROM Buildings WHERE PrereqDistrict IN (SELECT DISTINCT DistrictType FROM DB_LM_Districts) ;
+
+INSERT INTO DB_LM_Buildings (BuildingType)
+	SELECT BuildingType FROM Buildings WHERE IsWonder = 1 ;
+
+INSERT INTO DB_LM_Buildings (BuildingType)
+	SELECT CivUniqueBuildingType FROM BuildingReplaces WHERE ReplacesBuildingType IN (SELECT DISTINCT BuildingType FROM DB_LM_Buildings) ;
+
+INSERT INTO DB_LM_Buildings (BuildingType) VALUES ('BUILDING_SHOPPING_MALL') ;
+
+DELETE FROM DB_LM_Buildings WHERE BuildingType NOT IN (SELECT BuildingType FROM Buildings) ; -- Removes Shopping Mall, etc if they don't have the DLC
+
+
+INSERT OR IGNORE INTO DistrictModifiers (DistrictType, ModifierId)
+	SELECT DISTINCT DistrictType, 'DB_LM_MOD_MINUS_1_IDENTITY_ON_ALL_CITIES_WITHIN_9_TILES' FROM DB_LM_Districts ;
+
+INSERT OR IGNORE INTO DistrictModifiers (DistrictType, ModifierId)
+	SELECT DISTINCT DistrictType, 'DB_LM_MOD_PLUS_2_IDENTITY_ON_PLAYER_CITIES_WITHIN_9_TILES' FROM DB_LM_Districts ;
+
+
+INSERT OR IGNORE INTO BuildingModifiers (BuildingType, ModifierId)
+	SELECT DISTINCT BuildingType, 'DB_LM_MOD_MINUS_1_IDENTITY_ON_ALL_CITIES_WITHIN_9_TILES' FROM DB_LM_Buildings ;
+
+INSERT OR IGNORE INTO BuildingModifiers (BuildingType, ModifierId)
+	SELECT DISTINCT BuildingType, 'DB_LM_MOD_PLUS_2_IDENTITY_ON_PLAYER_CITIES_WITHIN_9_TILES' FROM DB_LM_Buildings ;
+
+
+
+
+-- For updating LOC query
+/*
+DROP TABLE IF EXISTS DB_LM_LOC_Descriptions ;
+CREATE TABLE DB_LM_LOC_Descriptions (Tag VARCHAR) ;
+INSERT INTO DB_LM_LOC_Descriptions (Tag)
+	SELECT DISTINCT "'LOC_" || DistrictType || "_DESC'," FROM DB_LM_Districts ;
+INSERT INTO DB_LM_LOC_Descriptions (Tag)
+	SELECT DISTINCT "'LOC_" || BuildingType || "_DESC'," FROM DB_LM_Buildings ;
+*/
+
+DROP TABLE IF EXISTS DB_LM_Districts ;
+DROP TABLE IF EXISTS DB_LM_Buildings ;
+DROP TABLE IF EXISTS DB_LM_LOC_Descriptions ;
+
+
+
+-- Adjust existing monument modifier
+UPDATE ModifierArguments SET Value = 0 WHERE ModifierId = 'MONUMENT_LOYALTY' AND Name = 'Amount' ;
+
+-- Monuments get double the normal modifier
+INSERT OR IGNORE INTO Modifiers (ModifierId, ModifierType, SubjectRequirementSetId) VALUES ('DB_LM_MOD_MINUS_2_IDENTITY_ON_ALL_CITIES_WITHIN_9_TILES', 'DB_DM_ALL_CITIES_ADJUST_IDENTITY_PER_TURN', 'DB_REQSET_WITHIN_9_TILES') ;
+INSERT OR IGNORE INTO ModifierArguments (ModifierId, Name, Value) VALUES ('DB_LM_MOD_MINUS_2_IDENTITY_ON_ALL_CITIES_WITHIN_9_TILES', 'Amount', -2) ;
+
+INSERT OR IGNORE INTO Modifiers (ModifierId, ModifierType, SubjectRequirementSetId) VALUES ('DB_LM_MOD_PLUS_4_IDENTITY_ON_PLAYER_CITIES_WITHIN_9_TILES', 'DB_DM_PLAYER_CITIES_ADJUST_IDENTITY_PER_TURN', 'DB_REQSET_WITHIN_9_TILES') ;
+INSERT OR IGNORE INTO ModifierArguments (ModifierId, Name, Value) VALUES ('DB_LM_MOD_PLUS_4_IDENTITY_ON_PLAYER_CITIES_WITHIN_9_TILES', 'Amount', 4) ;
+
+INSERT OR IGNORE INTO BuildingModifiers (BuildingType, ModifierId) VALUES ('BUILDING_MONUMENT', 'DB_LM_MOD_MINUS_2_IDENTITY_ON_ALL_CITIES_WITHIN_9_TILES') ;
+INSERT OR IGNORE INTO BuildingModifiers (BuildingType, ModifierId) VALUES ('BUILDING_MONUMENT', 'DB_LM_MOD_PLUS_4_IDENTITY_ON_PLAYER_CITIES_WITHIN_9_TILES') ;
