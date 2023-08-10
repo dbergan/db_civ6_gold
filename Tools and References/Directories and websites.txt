@@ -3,30 +3,16 @@ C:\Users\dberg\OneDrive\Beethoven\Documents\My Games\Sid Meier's Civilization VI
 C:\Users\dberg\OneDrive\Beethoven\Documents\My Games\Sid Meier's Civilization VI\Logs
 
 SQLite databases
-C:\Users\dberg\OneDrive\Beethoven\Documents\My Games\Sid Meier's Civilization VI\Cache
+C:\Users\dberg\AppData\Local\Firaxis Games\Sid Meier's Civilization VI\Cache
 
-G:\SteamLibrary\steamapps\common\Sid Meier's Civilization VI
+G:\Program Files (x86)\Steam\steamapps\common\Sid Meier's Civilization VI
 
-G:\SteamLibrary\steamapps\common\Sid Meier's Civilization VI\Debug
+Firetuner panels
+G:\Program Files (x86)\Steam\steamapps\common\Sid Meier's Civilization VI\Debug
 
-C:\Users\dberg\OneDrive\Chopin\Documents\Firaxis ModBuddy\Civilization VI
+C:\Users\dberg\GithubPrograms\db_civ6_gold
 
-G:\SteamLibrary\steamapps\workshop\content\289070
-1529686382 -- SDG
-1871142050 -- BR
-2373931339 -- BM
-2373942815 -- YT
+G:\Program Files (x86)\Steam\steamapps\workshop\content\289070
 
-Soli Deo Gloria
-https://steamcommunity.com/sharedfiles/filedetails/?id=1529686382
-
-Better Rulebook
-https://steamcommunity.com/sharedfiles/filedetails/?id=1871142050
-
-Better Multiplayer
-https://steamcommunity.com/sharedfiles/filedetails/?id=2373931339
-
-Yield Tweaks
-https://steamcommunity.com/sharedfiles/filedetails/?id=2373942815
-
-
+DB's Civ VI Gold
+https://steamcommunity.com/sharedfiles/filedetails/?id=2533573440

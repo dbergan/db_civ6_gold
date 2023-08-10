@@ -35,3 +35,5 @@ NEED TO TEST
 
 
 ===DONE===
+BETTER TRADE ROUTES
+- Remove minimum time length (i.e., for short routes, the trader is done after going there and back once)
