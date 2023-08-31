@@ -33,7 +33,15 @@ Music selector [When you click another civ leader icon (for diplomacy), you hear
 NEED TO TEST
 
 
-
 ===DONE===
+BETTER WARFARE
+- Recon units (skirmishers, rangers, spec ops) are stealth by default and have better promotions, but much lower melee strength (defending strength)
 BETTER TRADE ROUTES
 - Remove minimum time length (i.e., for short routes, the trader is done after going there and back once)
+BETTER SCOUTS
+- Survey policy now gives +1 sight (was +100% XP from discovering natural wonders and huts)
+PANTHEON OBELISK
+- Pantheon Obelisk costs 250 (was 180)
+- God King policy give +30% production (was +20%)
+UNITS HIDE IN TREES
+- Bugfix: scouts, skirmishers, rangers, and spec ops no longer lose their stealth when they walk out of trees

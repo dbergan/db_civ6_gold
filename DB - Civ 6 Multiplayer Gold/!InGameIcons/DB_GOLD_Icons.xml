@@ -259,6 +259,13 @@
 		<Row Name="ICON_SDG_GREAT_SERMON"                   Atlas="ICON_ATLAS_UNIT_ACTIONS"    Index="51" />
 		
 		<!-- 51 is *Evangelize Belief*; 56 is *Found Religion*; 86 is an unused Great Prophet icon -->
+<!-- Better Warfare -->
+		<Row Name="ICON_DB_PROMOTION_RECON_PATHFINDER"     Atlas="ICON_ATLAS_PROMOTIONS"    Index="15" />
+		<Row Name="ICON_DB_PROMOTION_RECON_DOUBLE_TIME"    Atlas="ICON_ATLAS_PROMOTIONS"    Index="38" />
+		<Row Name="ICON_DB_PROMOTION_RECON_+1_RANGE"	   Atlas="ICON_ATLAS_PROMOTIONS"    Index="33" />
+		<Row Name="ICON_DB_PROMOTION_RECON_EXTRA_ATTACK"   Atlas="ICON_ATLAS_PROMOTIONS"    Index="4" />
+		<Row Name="ICON_DB_PROMOTION_RECON_ELUSIVE"        Atlas="ICON_ATLAS_PROMOTIONS"    Index="23" />
+
 <!-- Better Scouts -->
 		<Row Name="ICON_DB_PROMOTION_SCOUT_PATHFINDER"     Atlas="ICON_ATLAS_PROMOTIONS"    Index="15" />
 		<Row Name="ICON_DB_PROMOTION_SCOUT_DOUBLE_TIME"    Atlas="ICON_ATLAS_PROMOTIONS"    Index="38" />
@@ -267,7 +274,6 @@
 		<Row Name="ICON_DB_PROMOTION_SCOUT_DISGUISE"       Atlas="ICON_ATLAS_PROMOTIONS"    Index="33" />
 		<Row Name="ICON_DB_PROMOTION_SCOUT_ELUSIVE"        Atlas="ICON_ATLAS_PROMOTIONS"    Index="23" />
 		<Row Name="ICON_DB_PROMOTION_SCOUT_TROOP_INTEL"    Atlas="ICON_ATLAS_PROMOTIONS"    Index="7" />
-		<Row Name="ICON_DB_PROMOTION_SCOUT_STEALTH"        Atlas="ICON_ATLAS_PROMOTIONS"    Index="26" />
 
 <!-- Firaxis didn't provide icons for Warrior Monks -->
 		<Row Name="ICON_PROMOTION_MONK_SHADOW_STRIKE"   Atlas="ICON_ATLAS_PROMOTIONS"    Index="30" />
@@ -281,3 +287,4 @@
 	</IconDefinitions>
 </GameInfo>
 <!-- G:\Program Files (x86)\Steam\steamapps\common\Sid Meier's Civilization VI SDK Assets\Civ6\pantry\Textures\Notifications100.dds -->
+<!-- G:\Program Files (x86)\Steam\steamapps\common\Sid Meier's Civilization VI SDK Assets\Civ6\pantry\Textures\Promotions32.dds -->

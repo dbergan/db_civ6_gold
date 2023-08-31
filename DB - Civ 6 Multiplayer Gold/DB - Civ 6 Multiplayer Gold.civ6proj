@@ -289,10 +289,10 @@
 	<UpdateText id="BetterGreatScientists_Text"><Properties><LoadOrder>999990</LoadOrder></Properties><Criteria>DB_BETTER_GREAT_SCIENTISTS</Criteria><Criteria>Expansion2</Criteria><File>BetterGreatScientists/LOC_DB_BetterGreatScientists.sql</File></UpdateText>
 	<UpdateDatabase id="BetterRoads"><Properties><LoadOrder>999990</LoadOrder></Properties><Criteria>DB_BETTER_ROADS</Criteria><File>BetterRoads/DB_BetterRoads.sql</File></UpdateDatabase>
 	<UpdateText id="BetterRoads_Text"><Properties><LoadOrder>999990</LoadOrder></Properties><Criteria>DB_BETTER_ROADS</Criteria><File>BetterRoads/LOC_DB_BetterRoads.sql</File></UpdateText>
-	<UpdateDatabase id="BetterScouts"><Properties><LoadOrder>999990</LoadOrder></Properties><Criteria>DB_BETTER_SCOUTS</Criteria><File>BetterScouts/DB_BetterScouts.sql</File></UpdateDatabase>
-	<UpdateText id="BetterScouts_Text"><Properties><LoadOrder>999990</LoadOrder></Properties><Criteria>DB_BETTER_SCOUTS</Criteria><File>BetterScouts/LOC_DB_BetterScouts.sql</File></UpdateText>
+	<UpdateDatabase id="BetterScouts"><Properties><LoadOrder>999992</LoadOrder></Properties><Criteria>DB_BETTER_SCOUTS</Criteria><File>BetterScouts/DB_BetterScouts.sql</File></UpdateDatabase>
+	<UpdateText id="BetterScouts_Text"><Properties><LoadOrder>999992</LoadOrder></Properties><Criteria>DB_BETTER_SCOUTS</Criteria><File>BetterScouts/LOC_DB_BetterScouts.sql</File></UpdateText>
 	<UpdateDatabase id="BetterTradeRoutes"><Properties><LoadOrder>999990</LoadOrder></Properties><Criteria>DB_BETTER_TRADE_ROUTES</Criteria><File>BetterTradeRoutes/DB_BetterTradeRoutes.sql</File></UpdateDatabase>
-		<UpdateDatabase id="BetterWarfare"><Properties><LoadOrder>999990</LoadOrder></Properties><Criteria>DB_BETTER_WARFARE</Criteria><Criteria>Expansion2</Criteria>
+		<UpdateDatabase id="BetterWarfare"><Properties><LoadOrder>999991</LoadOrder></Properties><Criteria>DB_BETTER_WARFARE</Criteria><Criteria>Expansion2</Criteria>
 		<File>BetterWarfare/DB_BetterWarfare.sql</File>
 		<File>BetterWarfare/DB_BW_AirBomber.sql</File>
 		<File>BetterWarfare/DB_BW_AirFighter.sql</File>
@@ -309,6 +309,7 @@
 		<File>BetterWarfare/DB_BW_Recon.sql</File>
 		<File>BetterWarfare/DB_BW_Siege.sql</File>
 	</UpdateDatabase>
+	<UpdateText id="BetterWarfare_Text"><Properties><LoadOrder>999991</LoadOrder></Properties><Criteria>DB_BETTER_WARFARE</Criteria><File>BetterWarfare/LOC_DB_BetterWarfare.sql</File></UpdateText>
 	<UpdateDatabase id="BuildersCanBuildRoads"><Properties><LoadOrder>999990</LoadOrder></Properties><Criteria>DB_BUILDERS_CAN_BUILD_ROADS</Criteria><File>BuildersCanBuildRoads/DB_BuildersCanBuildRoads.sql</File></UpdateDatabase>
 	<UpdateDatabase id="BuyHSBuildingsWithFaith"><Properties><LoadOrder>999990</LoadOrder></Properties><Criteria>DB_BUY_HSBUILDINGS_WITH_FAITH</Criteria><File>BuyHSBuildingsWithFaith/DB_BuyHSBuildingsWithFaith.sql</File></UpdateDatabase>
 	<UpdateDatabase id="CathedralsHoldRelics"><Properties><LoadOrder>999990</LoadOrder></Properties><Criteria>DB_CATHEDRALS_HOLD_RELICS</Criteria><File>CathedralsHoldRelics/DB_CathedralsHoldRelics.sql</File></UpdateDatabase>
@@ -1086,6 +1087,9 @@
       <SubType>Content</SubType>
     </Content>
     <Content Include="BetterWarfare\DB_BW_Siege.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="BetterWarfare\LOC_DB_BetterWarfare.sql">
       <SubType>Content</SubType>
     </Content>
     <Content Include="BuildersCanBuildRoads\DB_BuildersCanBuildRoads.sql">

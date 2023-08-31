@@ -1,6 +1,6 @@
 C:\Users\dberg\OneDrive\Beethoven\Documents\My Games\Sid Meier's Civilization VI\Mods
 
-C:\Users\dberg\OneDrive\Beethoven\Documents\My Games\Sid Meier's Civilization VI\Logs
+C:\Users\dberg\AppData\Local\Firaxis Games\Sid Meier's Civilization VI\Logs
 
 SQLite databases
 C:\Users\dberg\AppData\Local\Firaxis Games\Sid Meier's Civilization VI\Cache
@@ -16,3 +16,6 @@ G:\Program Files (x86)\Steam\steamapps\workshop\content\289070
 
 DB's Civ VI Gold
 https://steamcommunity.com/sharedfiles/filedetails/?id=2533573440
+
+Modding Companion
+https://docs.google.com/spreadsheets/d/1hQ8zlEHl1nfjCWvKqOlkDACezu5-igfQkVcOxeE_KG0/edit#gid=1678767919

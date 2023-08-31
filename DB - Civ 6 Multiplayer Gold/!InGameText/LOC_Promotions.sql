@@ -7,6 +7,8 @@ INSERT OR REPLACE INTO LocalizedText
 -- PROMOTIONS
 
 -- Recon
+('LOC_PROMOTION_BATTLECRY_DESCRIPTION', '+7 [ICON_Strength] Combat Strength when attacking vs. Melee, Anti-Cavalry, and Ranged units.', 'en_US'),
+
 
 -- Melee
 ('LOC_PROMOTION_BATTLECRY_DESCRIPTION', '+7 [ICON_Strength] Combat Strength when attacking vs. Melee, Anti-Cavalry, and Ranged units.', 'en_US'),

@@ -75,17 +75,17 @@ INSERT OR REPLACE INTO LocalizedText
 ('LOC_DB_ABILITY_GAIN_EXP_FROM_ADJACENT_BATTLES_NAME', 'Gain XP From Observation{LOC_GOLD_LABEL}', 'en_US'),
 ('LOC_DB_ABILITY_GAIN_EXP_FROM_ADJACENT_BATTLES_DESC', '+1 XP when next to a defending unit or an enemy unit in a melee battle. +2 XP when next to both. (Isn''t affected by other XP modifiers like barracks/stables/lighthouse.)', 'en_US'),
 ('LOC_DB_ABILITY_GAIN_EXP_FROM_ADJACENT_BATTLES_SCOUTS_NAME', 'Scouts: more XP From Observation{LOC_GOLD_LABEL}', 'en_US'),
-('LOC_DB_ABILITY_GAIN_EXP_FROM_ADJACENT_BATTLES_SCOUTS_DESC', '+1/+2 XP increases to +2/+4 XP. (Isn''t affected by other other XP modifiers like the Survey policy.)', 'en_US'),
+('LOC_DB_ABILITY_GAIN_EXP_FROM_ADJACENT_BATTLES_SCOUTS_DESC', '+1/+2 XP increases to +2/+4 XP. (Isn''t affected by other other XP modifiers.)', 'en_US'),
 
 ('LOC_DB_UNIT_SCOUT_DESC', 'Scouts are support units that cannot attack, but instead excel at gathering information. By default they can see through terrain features (like woods and rainforests), reveal stealth units, and are stealth units themselves. They receive experience by acquiring tribal villages, discovering natural wonders, and being adjacent to battles.{LOC_DB_SCOUT_PROMOTIONS}', 'en_US'),
 ('LOC_DB_SCOUT_PROMOTIONS', '[NEWLINE][NEWLINE]Promotions include:[NEWLINE][ICON_Bullet]{LOC_DB_PROMOTION_DOUBLE_TIME_NAME} ({LOC_DB_PROMOTION_DOUBLE_TIME_DESC})[NEWLINE][ICON_Bullet]{LOC_DB_PROMOTION_SPYGLASS_NAME} ({LOC_DB_PROMOTION_SPYGLASS_DESC})[NEWLINE][ICON_Bullet]{LOC_DB_PROMOTION_SCOUT_PATHFINDER_NAME} ({LOC_DB_PROMOTION_SCOUT_PATHFINDER_DESC})[NEWLINE][ICON_Bullet]{LOC_DB_PROMOTION_SCOUT_DISGUISE_NAME} ({LOC_DB_PROMOTION_SCOUT_DISGUISE_DESC})[NEWLINE][ICON_Bullet]{LOC_DB_PROMOTION_ELUSIVE_NAME} ({LOC_DB_PROMOTION_ELUSIVE_DESC})[NEWLINE][ICON_Bullet]{LOC_DB_PROMOTION_SCOUT_TROOP_INTEL_NAME} ({LOC_DB_PROMOTION_SCOUT_TROOP_INTEL_DESC})', 'en_US'),
 ('LOC_DB_PROMOTION_CLASS_LATER_RECON_NAME', 'Recon', 'en_US'),
 
-('LOC_DB_PROMOTION_SCOUT_PATHFINDER_NAME', 'Pathfinder', 'en_US'),
-('LOC_DB_PROMOTION_SCOUT_PATHFINDER_DESC', 'Ignore terrain movement costs', 'en_US'),
+('LOC_DB_PROMOTION_PATHFINDER_NAME', 'Pathfinder', 'en_US'),
+('LOC_DB_PROMOTION_PATHFINDER_DESC', 'Ignore terrain movement costs', 'en_US'),
 
-('LOC_DB_PROMOTION_SCOUT_SENTRY_NAME', 'Sentry', 'en_US'),
-('LOC_DB_PROMOTION_SCOUT_SENTRY_DESC', 'Can see through Woods and Jungle.', 'en_US'),
+('LOC_DB_PROMOTION_SENTRY_NAME', 'Sentry', 'en_US'),
+('LOC_DB_PROMOTION_SENTRY_DESC', 'Can see through Woods and Jungle.', 'en_US'),
 
 ('LOC_DB_PROMOTION_SCOUT_TROOP_INTEL_NAME', 'Troop Intel', 'en_US'),
 ('LOC_DB_PROMOTION_SCOUT_TROOP_INTEL_DESC', 'The Damaged [ICON_Strength] penalty is doubled for adjacent enemies', 'en_US'),
@@ -99,6 +99,9 @@ INSERT OR REPLACE INTO LocalizedText
 ('LOC_DB_PROMOTION_SPYGLASS_NAME', 'Spyglass', 'en_US'),
 ('LOC_DB_PROMOTION_SPYGLASS_DESC', '+1 sight range', 'en_US'),
 
+('LOC_DB_PROMOTION_EXTRA_RANGE_NAME', 'Hawkeye', 'en_US'),
+('LOC_DB_PROMOTION_EXTRA_RANGE_DESC', '+1 range', 'en_US'),
+
 ('LOC_DB_PROMOTION_STEALTH_NAME', 'Stealth', 'en_US'),
 ('LOC_DB_PROMOTION_STEALTH_DESC', 'Hidden from enemy units unless they are adjacent or have an ability to reveal stealth units', 'en_US'),
 
@@ -111,7 +114,6 @@ INSERT OR REPLACE INTO LocalizedText
 ('LOC_DB_ABILITY_SCOUT_TROOP_INTEL_DAMAGE_DECREMENT_NAME', '{LOC_DB_PROMOTION_SCOUT_TROOP_INTEL_NAME} Damage', 'en_US'),
 ('LOC_DB_ABILITY_SCOUT_TROOP_INTEL_DAMAGE_DECREMENT_DESC', 'Damaged Unit [ICON_Strength] penalty doubled due to {LOC_DB_PROMOTION_SCOUT_TROOP_INTEL_NAME} from enemy Scout {LOC_DB_PROMOTION_SCOUT_TROOP_INTEL_NAME} (1[ICON_Strength] is reduced for every 5 damage)', 'en_US'),
 ('LOC_DB_MOD_SCOUT_TROOP_INTEL_PREVIEW', '(Damaged Unit [ICON_Strength] penalty doubled due to {LOC_DB_PROMOTION_SCOUT_TROOP_INTEL_NAME} from enemy Scout)', 'en_US'),
-
 
 
 ('LOC_DB_PROMOTION_CLASS_AERIAL_OBSERVATION_NAME', 'Aerial Observation', 'en_US'),
@@ -168,7 +170,7 @@ INSERT OR REPLACE INTO LocalizedText
 ('LOC_DB_PROMOTION_TERROR_AND_PANIC_NAME', 'Terror and Panic', 'en_US'),
 ('LOC_DB_PROMOTION_TERROR_AND_PANIC_DESCRIPTION', 'Pillaging only costs 1 [ICON_Movement] movement', 'en_US'),
 
-
+('LOC_DB_PROMOTION_AMPHIBIOUS_DESCRIPTION', 'No [ICON_Movement] Movement penalty for shores or rivers.', 'en_US'),
 
 ('LOC_DB_PROMOTION_HEAVY_INFANTRY_PHALANX_NAME', 'Phalanx Formation', 'en_US'),
 ('LOC_DB_PROMOTION_HEAVY_INFANTRY_PHALANX_DESCRIPTION', '+10 [ICON_STRENGTH] Combat Strength on defense', 'en_US'),
@@ -274,7 +276,7 @@ INSERT OR REPLACE INTO LocalizedText
 ('LOC_DB_CULTURE_VICTORY', 'Victory is achieved when a player[NEWLINE]earns a Visiting Tourist Score[NEWLINE]that''s higher than every other[NEWLINE]civilization''s Domestic Tourist Score', 'en_US'),
 
 ('LOC_PEDIA_GOVERNMENTS_PAGE_POLICY_SCRIPTURE_CHAPTER_HISTORY_PARA_1', '***Olympic Pantheons***[NEWLINE]This policy will be applied to the faith bonuses from:[NEWLINE]Alpheus[NEWLINE]Aphrodite (Holy Site only)[NEWLINE]Gaia[NEWLINE]Helios[NEWLINE]Hestia[NEWLINE]Pan[NEWLINE]Persephone[NEWLINE]Poseidon[NEWLINE]Zeus (Holy Site only)[NEWLINE][NEWLINE]This policy is not applied to the faith bonuses from:[NEWLINE]Apollo[NEWLINE]Ares[NEWLINE]Artemis[NEWLINE]Athena[NEWLINE]Atlas[NEWLINE]Demeter[NEWLINE]Dionysus[NEWLINE]Hades[NEWLINE]Hephaestus[NEWLINE]Hera', 'en_US'),
-('LOC_PEDIA_GOVERNMENTS_PAGE_POLICY_SCRIPTURE_CHAPTER_HISTORY_PARA_2', 'The oldest religious text found so far dates to ancient Sumer around 2600 BC. It was the first example of scripture, a text that is considered to be sacred or central to a religious tradition. The oldest of a still existing religion is likely the Rigveda of Hinduism, composed between 1700 and 1100 BC. The claim of God''s (whoever it may be) Word "made manifest" is an undeniable selling point to would-be converts; it is not surprising that the five largest existing religions all have a primary scripture: Buddhism (the Tripitaka), Hinduism (Vedas and Upanishads), Islam (Qur’an), Judaism (Tanakh), and Christianity (Bible).', 'en_US'),
+('LOC_PEDIA_GOVERNMENTS_PAGE_POLICY_SCRIPTURE_CHAPTER_HISTORY_PARA_2', 'The oldest religious text found so far dates to ancient Sumer around 2600 BC. It was the first example of scripture, a text that is considered to be sacred or central to a religious tradition. The oldest of a still existing religion is likely the Rigveda of Hinduism, composed between 1700 and 1100 BC. The claim of God''s (whoever it may be) Word "made manifest" is an undeniable selling point to would-be converts; it is not surprising that the five largest existing religions all have a primary scripture: Buddhism (the Tripitaka), Hinduism (Vedas and Upanishads), Islam (Qurï¿½an), Judaism (Tanakh), and Christianity (Bible).', 'en_US'),
 
 ('LOC_DB_GOODY_ANTI_CAV', '[COLOR_FLOAT_MILITARY]You are granted an anti-cavalry unit[ENDCOLOR]', 'en_US'),
 ('LOC_DB_GOODY_HEAVY_CAV', '[COLOR_FLOAT_MILITARY]You are granted a heavy cavalry unit[ENDCOLOR]', 'en_US'),
