@@ -34,14 +34,15 @@ NEED TO TEST
 
 
 ===DONE===
+UNITS HIDE IN TREES
+- Recon Units: Replace Camouflage promotion with "Survivalist" (heal after any action)
+- Warrior Monks: Replace Twilight Veil promotion with "Chakra" (+10 healing)
 BETTER WARFARE
-- Recon units (skirmishers, rangers, spec ops) are stealth by default and have better promotions, but much lower melee strength (defending strength)
-BETTER TRADE ROUTES
-- Remove minimum time length (i.e., for short routes, the trader is done after going there and back once)
+- Later Recon units (skirmishers, rangers, spec ops) are stealth by default and have better promotions, but much lower melee strength (defending strength)
 BETTER SCOUTS
 - Survey policy now gives +1 sight (was +100% XP from discovering natural wonders and huts)
+BETTER TRADE ROUTES
+- Remove minimum time length (i.e., for short routes, the trader is done after going there and back once)
 PANTHEON OBELISK
 - Pantheon Obelisk costs 250 (was 180)
 - God King policy give +30% production (was +20%)
-UNITS HIDE IN TREES
-- Bugfix: scouts, skirmishers, rangers, and spec ops no longer lose their stealth when they walk out of trees

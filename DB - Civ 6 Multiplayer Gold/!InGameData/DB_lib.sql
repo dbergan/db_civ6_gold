@@ -2082,6 +2082,7 @@ VALUES
 ('DB_MOD_+2_MOVEMENT',									'MODIFIER_PLAYER_UNIT_ADJUST_MOVEMENT',					        null),
 ('DB_MOD_+1_SIGHT',											'MODIFIER_PLAYER_UNIT_ADJUST_SIGHT',					          null),
 ('DB_MOD_+1_RANGE',											'MODIFIER_UNIT_ADJUST_ATTACK_RANGE',					          null),
+('DB_MOD_+10_HEALING',									'MODIFIER_PLAYER_UNIT_ADJUST_HEAL_PER_TURN',		        null),
 ('DB_MOD_IRON_NERVES',									'DB_DM_STRENGTH_REDUCTION_FOR_DAMAGE',					        null),	-- National Identity
 ('DB_MOD_EXTRA_ATTACK',									'MODIFIER_UNIT_ADJUST_NUM_ATTACKS',						          null),
 ('DB_MOD_SEE_THROUGH_TERRAIN',					'MODIFIER_PLAYER_UNIT_ADJUST_SEE_THROUGH_FEATURES',     null),
@@ -2124,57 +2125,59 @@ VALUES
 
 
 INSERT OR REPLACE INTO ModifierArguments
-(ModifierId,													Name,					Value) VALUES
-('DB_MOD_MELEE_ATTACKS_FROM_CITIES',							'ModifierId',			'DB_MOD_MELEE_ATTACKS_FROM_CITIES2'),
-('DB_MOD_MELEE_ATTACKS_FROM_CITIES2',							'Amount',				-20),
+(ModifierId,													Name,					          Value) VALUES
+('DB_MOD_MELEE_ATTACKS_FROM_CITIES',	'ModifierId',		        'DB_MOD_MELEE_ATTACKS_FROM_CITIES2'),
+('DB_MOD_MELEE_ATTACKS_FROM_CITIES2',	'Amount',				        -20),
 
-('DB_MOD_MOVE_AFTER_ATTACK',									'CanMove',				1),
-('DB_MOD_+1_MOVEMENT',											'Amount',				1),
-('DB_MOD_+2_MOVEMENT',											'Amount',				2),
-('DB_MOD_+1_SIGHT',												'Amount',				1),
-('DB_MOD_+1_RANGE',												'Amount',				1),
-('DB_MOD_IRON_NERVES',											'Amount',				100),
-('DB_MOD_EXTRA_ATTACK',											'Amount',				1),
-('DB_MOD_SEE_THROUGH_TERRAIN',									'CanSee',				1),
-('DB_MOD_STEALTH',												'Hidden',				1),
-('DB_MOD_REVEAL_STEALTH',										'SeeHidden',			1),
-('DB_MOD_MOVEMENT_IGNORE_TERRAIN',								'Ignore',				1),	
-('DB_MOD_MOVEMENT_IGNORE_TERRAIN',								'Type',					'ALL'),	
-('DB_MOD_MOVEMENT_IGNORE_RIVER',								'Ignore',				1),	
-('DB_MOD_EXERT_ZOC',											'Exert',				1),
-('DB_MOD_IGNORE_ZOC',											'Ignore',				1),
+('DB_MOD_MOVE_AFTER_ATTACK',					'CanMove',			        1),
+('DB_MOD_+1_MOVEMENT',								'Amount',				        1),
+('DB_MOD_+2_MOVEMENT',								'Amount',				        2),
+('DB_MOD_+1_SIGHT',										'Amount',				        1),
+('DB_MOD_+1_RANGE',										'Amount',				        1),
+('DB_MOD_+10_HEALING',                'Type',                 'ALL'),
+('DB_MOD_+10_HEALING',                'Amount',               '10'),
+('DB_MOD_IRON_NERVES',								'Amount',				        100),
+('DB_MOD_EXTRA_ATTACK',								'Amount',				        1),
+('DB_MOD_SEE_THROUGH_TERRAIN',				'CanSee',				        1),
+('DB_MOD_STEALTH',										'Hidden',				        1),
+('DB_MOD_REVEAL_STEALTH',							'SeeHidden',		        1),
+('DB_MOD_MOVEMENT_IGNORE_TERRAIN',		'Ignore',				        1),	
+('DB_MOD_MOVEMENT_IGNORE_TERRAIN',		'Type',					        'ALL'),	
+('DB_MOD_MOVEMENT_IGNORE_RIVER',			'Ignore',				        1),	
+('DB_MOD_EXERT_ZOC',									'Exert',				        1),
+('DB_MOD_IGNORE_ZOC',									'Ignore',				        1),
 
-('DB_MOD_PUSHBACK',												'ForceRetreat',			1),
-('DB_MOD_ENTER_FOREIGN',										'Enter',				1),
-('DB_MOD_1_MOVE_TO_PILLAGE',									'UseAdvancedPillaging',	1),
+('DB_MOD_PUSHBACK',										'ForceRetreat',			    1),
+('DB_MOD_ENTER_FOREIGN',							'Enter',				        1),
+('DB_MOD_1_MOVE_TO_PILLAGE',					'UseAdvancedPillaging',	1),
 
-('DB_MOD_DOUBLE_FLANKING',										'Percent',				100),
-('DB_MOD_DOUBLE_SUPPORT',										'Percent',				100),
-('DB_MOD_HEAL_20_ON_KILL',										'Amount',				20),
-('DB_MOD_DOESNT_HEAL',											'Type',					'ALL'),
-('DB_MOD_DOESNT_HEAL',											'Amount',				-100),
-('DB_MOD_1_RANDOM_TECH_BOOST',									'Amount',				1),
-('DB_MOD_2_RANDOM_TECH_BOOSTS',									'Amount',				2),
-('DB_MOD_3_RANDOM_TECH_BOOSTS',									'Amount',				3),
-('DB_MOD_4_RANDOM_TECH_BOOSTS',									'Amount',				4),
-('DB_MOD_1_RANDOM_CIVIC_BOOST',									'Amount',				1),
-('DB_MOD_2_RANDOM_CIVIC_BOOSTS',								'Amount',				2),
-('DB_MOD_3_RANDOM_CIVIC_BOOSTS',								'Amount',				3),
-('DB_MOD_4_RANDOM_CIVIC_BOOSTS',								'Amount',				4)
+('DB_MOD_DOUBLE_FLANKING',						'Percent',				      100),
+('DB_MOD_DOUBLE_SUPPORT',							'Percent',				      100),
+('DB_MOD_HEAL_20_ON_KILL',						'Amount',				        20),
+('DB_MOD_DOESNT_HEAL',								'Type',					        'ALL'),
+('DB_MOD_DOESNT_HEAL',								'Amount',				        -100),
+('DB_MOD_1_RANDOM_TECH_BOOST',				'Amount',				        1),
+('DB_MOD_2_RANDOM_TECH_BOOSTS',				'Amount',				        2),
+('DB_MOD_3_RANDOM_TECH_BOOSTS',				'Amount',				        3),
+('DB_MOD_4_RANDOM_TECH_BOOSTS',				'Amount',				        4),
+('DB_MOD_1_RANDOM_CIVIC_BOOST',				'Amount',				        1),
+('DB_MOD_2_RANDOM_CIVIC_BOOSTS',			'Amount',				        2),
+('DB_MOD_3_RANDOM_CIVIC_BOOSTS',			'Amount',				        3),
+('DB_MOD_4_RANDOM_CIVIC_BOOSTS',			'Amount',				        4)
 ;
 
 INSERT OR REPLACE INTO ModifierStrings
-(ModifierId,							Context,	Text)
+(ModifierId,							            Context,	  Text)
 VALUES	
 ('DB_MOD_MELEE_ATTACKS_FROM_CITIES2',	'Preview',	'LOC_DB_MOD_MELEE_ATTACKS_FROM_CITIES_PREVIEW'),
-('DB_MOD_1_RANDOM_CIVIC_BOOST',			'Summary',	'LOC_DB_MOD_1_RANDOM_CIVIC_BOOST'),
-('DB_MOD_2_RANDOM_CIVIC_BOOSTS',		'Summary',	'LOC_DB_MOD_2_RANDOM_CIVIC_BOOSTS'),
-('DB_MOD_3_RANDOM_CIVIC_BOOSTS',		'Summary',	'LOC_DB_MOD_3_RANDOM_CIVIC_BOOSTS'),
-('DB_MOD_4_RANDOM_CIVIC_BOOSTS',		'Summary',	'LOC_DB_MOD_4_RANDOM_CIVIC_BOOSTS'),
-('DB_MOD_1_RANDOM_TECH_BOOST',			'Summary',	'LOC_DB_MOD_1_RANDOM_TECH_BOOST'),
-('DB_MOD_2_RANDOM_TECH_BOOSTS',			'Summary',	'LOC_DB_MOD_2_RANDOM_TECH_BOOSTS'),
-('DB_MOD_3_RANDOM_TECH_BOOSTS',			'Summary',	'LOC_DB_MOD_3_RANDOM_TECH_BOOSTS'),
-('DB_MOD_4_RANDOM_TECH_BOOSTS',			'Summary',	'LOC_DB_MOD_4_RANDOM_TECH_BOOSTS')
+('DB_MOD_1_RANDOM_CIVIC_BOOST',			  'Summary',	'LOC_DB_MOD_1_RANDOM_CIVIC_BOOST'),
+('DB_MOD_2_RANDOM_CIVIC_BOOSTS',		  'Summary',	'LOC_DB_MOD_2_RANDOM_CIVIC_BOOSTS'),
+('DB_MOD_3_RANDOM_CIVIC_BOOSTS',		  'Summary',	'LOC_DB_MOD_3_RANDOM_CIVIC_BOOSTS'),
+('DB_MOD_4_RANDOM_CIVIC_BOOSTS',		  'Summary',	'LOC_DB_MOD_4_RANDOM_CIVIC_BOOSTS'),
+('DB_MOD_1_RANDOM_TECH_BOOST',			  'Summary',	'LOC_DB_MOD_1_RANDOM_TECH_BOOST'),
+('DB_MOD_2_RANDOM_TECH_BOOSTS',			  'Summary',	'LOC_DB_MOD_2_RANDOM_TECH_BOOSTS'),
+('DB_MOD_3_RANDOM_TECH_BOOSTS',			  'Summary',	'LOC_DB_MOD_3_RANDOM_TECH_BOOSTS'),
+('DB_MOD_4_RANDOM_TECH_BOOSTS',			  'Summary',	'LOC_DB_MOD_4_RANDOM_TECH_BOOSTS')
 ;
 
 INSERT OR REPLACE INTO Modifiers (ModifierId, ModifierType)

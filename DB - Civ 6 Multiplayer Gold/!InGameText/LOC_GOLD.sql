@@ -167,6 +167,9 @@ INSERT OR REPLACE INTO LocalizedText
 ('LOC_DB_PROMOTION_SURVIVALIST_NAME', 'Survivalist', 'en_US'),
 ('LOC_DB_PROMOTION_SURVIVALIST_DESCRIPTION', 'Heal after any action', 'en_US'),
 
+('LOC_DB_PROMOTION_CHAKRA_NAME', 'Chakra', 'en_US'),
+('LOC_DB_PROMOTION_CHAKRA_DESCRIPTION', '+10 Healing in any territory', 'en_US'),
+
 ('LOC_DB_PROMOTION_TERROR_AND_PANIC_NAME', 'Terror and Panic', 'en_US'),
 ('LOC_DB_PROMOTION_TERROR_AND_PANIC_DESCRIPTION', 'Pillaging only costs 1 [ICON_Movement] movement', 'en_US'),
 
