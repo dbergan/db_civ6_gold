@@ -31,8 +31,7 @@ Unit Table from Better Civilopedia? (https://steamcommunity.com/sharedfiles/file
 Music selector [When you click another civ leader icon (for diplomacy), you hear their music. There should be a way to do that outside of the diplomacy screen.]
 
 NEED TO TEST
-
-
-===DONE===
 BETTER GREAT SCIENTISTS
 - bugfix: don't load if the player doesn't have Babylon DLC selected for the game
+
+===DONE===
