@@ -222,7 +222,7 @@
 	<File>!InGameData/DB_lib_XP2.sql</File>
 	</UpdateDatabase>
 
-	<UpdateDatabase id="DB_lib_GranColombia"><Properties><LoadOrder>999983</LoadOrder></Properties><Criteria>GranColombia</Criteria>
+	<UpdateDatabase id="DB_lib_GranColombia"><Properties><LoadOrder>999983</LoadOrder></Properties><Criteria>MAYA_GRAN_COLUMBIA_DLC</Criteria>
 	<File>!InGameData/DB_lib_GranColombia.sql</File>
 	</UpdateDatabase>
 
@@ -275,18 +275,18 @@
 	<UpdateDatabase id="AllHS3BuildingsAvailable"><Properties><LoadOrder>999990</LoadOrder></Properties><Criteria>DB_ALL_HS3_BUILDINGS</Criteria><File>AllHS3BuildingsAvailable/DB_AllHS3BuildingsAvailable.sql</File></UpdateDatabase>
 	<UpdateDatabase id="AllMenAreMortal"><Properties><LoadOrder>999990</LoadOrder></Properties><Criteria>DB_ALL_MEN_ARE_MORTAL</Criteria><File>AllMenAreMortal/DB_AllMenAreMortal.sql</File></UpdateDatabase>
 	<UpdateDatabase id="BalancedWalls"><Properties><LoadOrder>999990</LoadOrder></Properties><Criteria>DB_BALANCED_WALLS</Criteria><Criteria>Expansion2</Criteria><File>BalancedWalls/DB_BalancedWalls.sql</File></UpdateDatabase>
-	<UpdateText id="BalancedWalls_Text"><Properties><LoadOrder>999990</LoadOrder></Properties><Criteria>DB_BALANCED_WALLS</Criteria><File>BalancedWalls/LOC_DB_BalancedWalls.sql</File></UpdateText>
+	<UpdateText id="BalancedWalls_Text"><Properties><LoadOrder>999990</LoadOrder></Properties><Criteria>DB_BALANCED_WALLS</Criteria><Criteria>Expansion2</Criteria><File>BalancedWalls/LOC_DB_BalancedWalls.sql</File></UpdateText>
 	<UpdateDatabase id="BattleNotifications"><Properties><LoadOrder>999990</LoadOrder></Properties><Criteria>DB_BATTLE_NOTIFICATIONS</Criteria><File>BattleNotifications/DB_BattleNotifications.sql</File></UpdateDatabase>
 	<UpdateDatabase id="BetterDiplomaticQuarter"><Properties><LoadOrder>999991</LoadOrder></Properties><Criteria>DB_BETTER_DIPLOMATIC_QUARTER</Criteria><Criteria>ETHIOPIA_DLC</Criteria><File>BetterDiplomaticQuarter/DB_BetterDiplomaticQuarter.sql</File></UpdateDatabase>
 	<UpdateText id="BetterDiplomaticQuarter_Text"><Properties><LoadOrder>999991</LoadOrder></Properties><Criteria>DB_BETTER_DIPLOMATIC_QUARTER</Criteria><Criteria>ETHIOPIA_DLC</Criteria><File>BetterDiplomaticQuarter/LOC_DB_BetterDiplomaticQuarter.sql</File></UpdateText>
 	<UpdateDatabase id="BetterGovernmentPlaza"><Properties><LoadOrder>999991</LoadOrder></Properties><Criteria>DB_BETTER_GOVERNMENT_PLAZA</Criteria><Criteria>Expansion1</Criteria><File>BetterGovernmentPlaza/DB_BetterGovernmentPlaza.sql</File></UpdateDatabase>
 	<UpdateText id="BetterGovernmentPlaza_Text"><Properties><LoadOrder>999991</LoadOrder></Properties><Criteria>DB_BETTER_GOVERNMENT_PLAZA</Criteria><Criteria>Expansion1</Criteria><File>BetterGovernmentPlaza/LOC_DB_BetterGovernmentPlaza.sql</File></UpdateText>
-	<UpdateDatabase id="BetterGovernors"><Properties><LoadOrder>999991</LoadOrder></Properties><Criteria>DB_BETTER_GOVERNORS</Criteria><Criteria>GranColombia</Criteria><File>BetterGovernors/DB_BetterGovernors.sql</File></UpdateDatabase>
-	<UpdateText id="BetterGovernors_TextXML"><Properties><LoadOrder>999991</LoadOrder></Properties><Criteria>DB_BETTER_GOVERNORS</Criteria><Criteria>GranColombia</Criteria><File>BetterGovernors/LOC_DB_BetterGovernors.xml</File></UpdateText>
-	<UpdateText id="BetterGovernors_Text"><Properties><LoadOrder>999991</LoadOrder></Properties><Criteria>DB_BETTER_GOVERNORS</Criteria><Criteria>GranColombia</Criteria><File>BetterGovernors/LOC_DB_BetterGovernors.sql</File></UpdateText>
-	<ReplaceUIScript id="BetterGovernors_GovernorDetailsPanel_DB_XP1"><Properties><LoadOrder>999991</LoadOrder><LuaContext>GovernorDetailsPanel</LuaContext><LuaReplace>BetterGovernors/GovernorDetailsPanel_DB_XP1.lua</LuaReplace></Properties><Criteria>GranColombia</Criteria></ReplaceUIScript>
-	<UpdateDatabase id="BetterGreatScientists"><Properties><LoadOrder>999990</LoadOrder></Properties><Criteria>DB_BETTER_GREAT_SCIENTISTS</Criteria><Criteria>Expansion2</Criteria><File>BetterGreatScientists/DB_BetterGreatScientists.sql</File></UpdateDatabase>
-	<UpdateText id="BetterGreatScientists_Text"><Properties><LoadOrder>999990</LoadOrder></Properties><Criteria>DB_BETTER_GREAT_SCIENTISTS</Criteria><Criteria>Expansion2</Criteria><File>BetterGreatScientists/LOC_DB_BetterGreatScientists.sql</File></UpdateText>
+	<UpdateDatabase id="BetterGovernors"><Properties><LoadOrder>999991</LoadOrder></Properties><Criteria>DB_BETTER_GOVERNORS</Criteria><Criteria>MAYA_GRAN_COLUMBIA_DLC</Criteria><File>BetterGovernors/DB_BetterGovernors.sql</File></UpdateDatabase>
+	<UpdateText id="BetterGovernors_TextXML"><Properties><LoadOrder>999991</LoadOrder></Properties><Criteria>DB_BETTER_GOVERNORS</Criteria><Criteria>MAYA_GRAN_COLUMBIA_DLC</Criteria><File>BetterGovernors/LOC_DB_BetterGovernors.xml</File></UpdateText>
+	<UpdateText id="BetterGovernors_Text"><Properties><LoadOrder>999991</LoadOrder></Properties><Criteria>DB_BETTER_GOVERNORS</Criteria><Criteria>MAYA_GRAN_COLUMBIA_DLC</Criteria><File>BetterGovernors/LOC_DB_BetterGovernors.sql</File></UpdateText>
+	<ReplaceUIScript id="BetterGovernors_GovernorDetailsPanel_DB_XP1"><Properties><LoadOrder>999991</LoadOrder><LuaContext>GovernorDetailsPanel</LuaContext><LuaReplace>BetterGovernors/GovernorDetailsPanel_DB_XP1.lua</LuaReplace></Properties><Criteria>MAYA_GRAN_COLUMBIA_DLC</Criteria></ReplaceUIScript>
+	<UpdateDatabase id="BetterGreatScientists"><Properties><LoadOrder>999990</LoadOrder></Properties><Criteria>DB_BETTER_GREAT_SCIENTISTS</Criteria><Criteria>Expansion2</Criteria><Criteria>BABYLON_DLC</Criteria><File>BetterGreatScientists/DB_BetterGreatScientists.sql</File></UpdateDatabase>
+	<UpdateText id="BetterGreatScientists_Text"><Properties><LoadOrder>999990</LoadOrder></Properties><Criteria>DB_BETTER_GREAT_SCIENTISTS</Criteria><Criteria>Expansion2</Criteria><Criteria>BABYLON_DLC</Criteria><File>BetterGreatScientists/LOC_DB_BetterGreatScientists.sql</File></UpdateText>
 	<UpdateDatabase id="BetterRoads"><Properties><LoadOrder>999990</LoadOrder></Properties><Criteria>DB_BETTER_ROADS</Criteria><File>BetterRoads/DB_BetterRoads.sql</File></UpdateDatabase>
 	<UpdateText id="BetterRoads_Text"><Properties><LoadOrder>999990</LoadOrder></Properties><Criteria>DB_BETTER_ROADS</Criteria><File>BetterRoads/LOC_DB_BetterRoads.sql</File></UpdateText>
 	<UpdateDatabase id="BetterScouts"><Properties><LoadOrder>999992</LoadOrder></Properties><Criteria>DB_BETTER_SCOUTS</Criteria><File>BetterScouts/DB_BetterScouts.sql</File></UpdateDatabase>
@@ -456,26 +456,41 @@
 	</InGameActions>]]></InGameActionData>
     <ActionCriteriaData><![CDATA[<ActionCriteria>
 	
-	<Criteria id="Expansion1"><GameCoreInUse>Expansion1,Expansion2</GameCoreInUse></Criteria>
-	<Criteria id="Expansion2"><GameCoreInUse>Expansion2</GameCoreInUse></Criteria>
-	<Criteria id="GranColombia"><ModInUse>9DE86512-DE1A-400D-8C0A-AB46EBBF76B9</ModInUse></Criteria>
-	<Criteria id="ETHIOPIA_DLC"><ModInUse>1B394FE9-23DC-4868-8F0A-5220CB8FB427</ModInUse></Criteria>
-	<Criteria id="BETTER_BALANCED_STARTS"><ModInUse>c88cba8b-8311-4d35-90c3-51a4a5d6654f</ModInUse></Criteria>
-	<Criteria id="CQUI"><ModInUse>1d44b5e7-753e-405b-af24-5ee634ec8a01</ModInUse></Criteria>	
-	<Criteria id="BETTER_REPORT_SCREEN"><ModInUse>6f2888d4-79dc-415f-a8ff-f9d81d7afb53</ModInUse></Criteria>
-	<Criteria id="BETTER_TECH_TREE"><ModInUse>23acd19c-377a-4da8-b8cb-87d3c7fc71af</ModInUse></Criteria>
-	<Criteria id="NOTIFICATION_LOG"><ModInUse>736a13ed-465a-4722-b759-873058c03763</ModInUse></Criteria>
-	<Criteria id="REAL_GREAT_PEOPLE"><ModInUse>6a18ae19-df93-4322-a3d5-33c5a5087b36</ModInUse></Criteria>
-	<Criteria id="SUKRITACTS_UI"><ModInUse>805cc499-c534-4e0a-bdce-32fb3c53ba38</ModInUse></Criteria>
-	<Criteria id="SUKRITACTS_GREAT_PERSON_SCREEN"><ModInUse>bcfc3174-aedb-457f-bd12-df2fb715d09f</ModInUse></Criteria>
-	<Criteria id="Z_UNIT_MARKS"><ModInUse>60ba8267-a681-4145-8359-3e5d1d97a0bc</ModInUse></Criteria>
+	<Criteria id="Expansion1"><GameCoreInUse>Expansion1,Expansion2</GameCoreInUse></Criteria>   <!-- 1B28771A-C749-434B-9053-D1380C553DE9 -->
+	<Criteria id="Expansion2"><GameCoreInUse>Expansion2</GameCoreInUse></Criteria>              <!-- 4873eb62-8ccc-4574-b784-dda455e74e68 -->
+	<Criteria id="AZTEC_DLC">                         <ModInUse>02A8BDDE-67EA-4D38-9540-26E685E3156E</ModInUse></Criteria>
+  <Criteria id="POLAND_DLC">                        <ModInUse>3809975F-263F-40A2-A747-8BFB171D821A</ModInUse></Criteria>
+  <Criteria id="VIKINGS_DLC">                       <ModInUse>2F6E858A-28EF-46B3-BEAC-B985E52E9BC1</ModInUse></Criteria>
+  <Criteria id="AUSTRALIA_DLC">                     <ModInUse>E3F53C61-371C-440B-96CE-077D318B36C0</ModInUse></Criteria>
+  <Criteria id="PERSIA_MACEDON_DLC">                <ModInUse>E2749E9A-8056-45CD-901B-C368C8E83DEB</ModInUse></Criteria>
+  <Criteria id="NUBIA_DLC">                         <ModInUse>643EA320-8E1A-4CF1-A01C-00D88DDD131A</ModInUse></Criteria>
+  <Criteria id="KHMER_INDONESIA_DLC">               <ModInUse>1F367231-A040-4793-BDBB-088816853683</ModInUse></Criteria>
+  <Criteria id="MEDICI_PERSONA_DLC">                <ModInUse>CE5876CD-6900-46D1-9C9C-8DBA1F28872E</ModInUse></Criteria>
+  <Criteria id="TEDDY_PERSONA_DLC">                 <ModInUse>113D9459-0A3B-4FCB-A49C-483F40303575</ModInUse></Criteria>
+  <Criteria id="CAESAR_LEADER_DLC">                 <ModInUse>9ED63236-617C-45A6-BB70-8CB6B0BE8ED2</ModInUse></Criteria>
+  <Criteria id="MAYA_GRAN_COLUMBIA_DLC">            <ModInUse>9DE86512-DE1A-400D-8C0A-AB46EBBF76B9</ModInUse></Criteria>
+  <Criteria id="ETHIOPIA_DLC">                      <ModInUse>1B394FE9-23DC-4868-8F0A-5220CB8FB427</ModInUse></Criteria>
+  <Criteria id="BYZANTIUM_GAUL_DLC">                <ModInUse>A1100FC4-70F2-4129-AC27-2A65A685ED08</ModInUse></Criteria>
+	<Criteria id="BABYLON_DLC">                       <ModInUse>8424840C-92EF-4426-A9B4-B4E0CB818049</ModInUse></Criteria>
+  <Criteria id="VIETNAM_KUBLAI_KAHN_DLC">           <ModInUse>A3F42CD4-6C3E-4F5A-BC81-BE29E0C0B87C</ModInUse></Criteria>
+  <Criteria id="PORTUGAL_DLC">                      <ModInUse>FFDF4E79-DEE2-47BB-919B-F5739106627A</ModInUse></Criteria>
 
-	<Criteria id="NO_BETTER_DEAL_WINDOW"><ModInUse inverse="1">fbb7b86a-9ac9-4a8e-9439-9ded6aceda0e</ModInUse></Criteria>
-	<Criteria id="NO_CQUI"><ModInUse inverse="1">1d44b5e7-753e-405b-af24-5ee634ec8a01</ModInUse></Criteria>	
-	<Criteria id="NO_REAL_GREAT_PEOPLE"><ModInUse inverse="1">6a18ae19-df93-4322-a3d5-33c5a5087b36</ModInUse></Criteria>
-	<Criteria id="NO_SIMPLIFIED_GOSSIP"><ModInUse inverse="1">9e9923e5-6842-4e7d-97e7-c9a56a85cf03</ModInUse></Criteria>
-	<Criteria id="NO_SUKRITACTS_GREAT_PERSON_SCREEN"><ModInUse inverse="1">bcfc3174-aedb-457f-bd12-df2fb715d09f</ModInUse></Criteria>
-	<Criteria id="NO_Z_UNIT_MARKS"><ModInUse inverse="1">60ba8267-a681-4145-8359-3e5d1d97a0bc</ModInUse></Criteria>
+	<Criteria id="BETTER_BALANCED_STARTS">            <ModInUse>c88cba8b-8311-4d35-90c3-51a4a5d6654f</ModInUse></Criteria>
+	<Criteria id="CQUI">                              <ModInUse>1d44b5e7-753e-405b-af24-5ee634ec8a01</ModInUse></Criteria>	
+	<Criteria id="BETTER_REPORT_SCREEN">              <ModInUse>6f2888d4-79dc-415f-a8ff-f9d81d7afb53</ModInUse></Criteria>
+	<Criteria id="BETTER_TECH_TREE">                  <ModInUse>23acd19c-377a-4da8-b8cb-87d3c7fc71af</ModInUse></Criteria>
+	<Criteria id="NOTIFICATION_LOG">                  <ModInUse>736a13ed-465a-4722-b759-873058c03763</ModInUse></Criteria>
+	<Criteria id="REAL_GREAT_PEOPLE">                 <ModInUse>6a18ae19-df93-4322-a3d5-33c5a5087b36</ModInUse></Criteria>
+	<Criteria id="SUKRITACTS_UI">                     <ModInUse>805cc499-c534-4e0a-bdce-32fb3c53ba38</ModInUse></Criteria>
+	<Criteria id="SUKRITACTS_GREAT_PERSON_SCREEN">    <ModInUse>bcfc3174-aedb-457f-bd12-df2fb715d09f</ModInUse></Criteria>
+	<Criteria id="Z_UNIT_MARKS">                      <ModInUse>60ba8267-a681-4145-8359-3e5d1d97a0bc</ModInUse></Criteria>
+
+	<Criteria id="NO_BETTER_DEAL_WINDOW">             <ModInUse inverse="1">fbb7b86a-9ac9-4a8e-9439-9ded6aceda0e</ModInUse></Criteria>
+	<Criteria id="NO_CQUI">                           <ModInUse inverse="1">1d44b5e7-753e-405b-af24-5ee634ec8a01</ModInUse></Criteria>	
+	<Criteria id="NO_REAL_GREAT_PEOPLE">              <ModInUse inverse="1">6a18ae19-df93-4322-a3d5-33c5a5087b36</ModInUse></Criteria>
+	<Criteria id="NO_SIMPLIFIED_GOSSIP">              <ModInUse inverse="1">9e9923e5-6842-4e7d-97e7-c9a56a85cf03</ModInUse></Criteria>
+	<Criteria id="NO_SUKRITACTS_GREAT_PERSON_SCREEN"> <ModInUse inverse="1">bcfc3174-aedb-457f-bd12-df2fb715d09f</ModInUse></Criteria>
+	<Criteria id="NO_Z_UNIT_MARKS">                   <ModInUse inverse="1">60ba8267-a681-4145-8359-3e5d1d97a0bc</ModInUse></Criteria>
 
 	<Criteria id="BARBARIAN_CLANS"><ConfigurationValueMatches><Group>Game</Group><ConfigurationId>GAMEMODE_BARBARIAN_CLANS</ConfigurationId><Value>1</Value></ConfigurationValueMatches></Criteria>
 

@@ -8,6 +8,7 @@ INSERT OR REPLACE INTO LocalizedText
 ('LOC_DB_OPTIONS_NOTE', 'Options from the mod "DB''s [ICON_Gold]Civ VI Gold[ICON_Gold]"', 'en_US'),
 ('LOC_DB_XP1_NOTE', '[NEWLINE][COLOR_Red]Note: does not work unless you are using Rise and Fall[ENDCOLOR]', 'en_US'),
 ('LOC_DB_XP2_NOTE', '[NEWLINE][COLOR_Red]Note: does not work unless you are using Gathering Storm[ENDCOLOR]', 'en_US'),
+('LOC_DB_BABYLON_NOTE', '[NEWLINE][COLOR_Red]Note: does not work unless you are using the Babylon DLC[ENDCOLOR]', 'en_US'),
 ('LOC_DB_ETHIOPIA_NOTE', '[NEWLINE][COLOR_Red]Note: does not work unless you are using the Ethiopia DLC[ENDCOLOR]', 'en_US'),
 ('LOC_DB_GRAN_COLOMBIA_NOTE', '[NEWLINE][COLOR_Red]Note: does not work unless you are using the Gran Colombia DLC[ENDCOLOR]', 'en_US'),
 
@@ -49,7 +50,7 @@ INSERT OR REPLACE INTO LocalizedText
 ('LOC_DB_BETTER_GOVERNORS_DESC', 'Each governor was overhauled to create interesting decisions and governor "promotions" were stripped of their hierarchy (i.e, you can get any promotion at any time). Most Governors install in 3 turns instead of 5.{LOC_DB_GOLD_MOD_NOTE}{LOC_DB_GRAN_COLOMBIA_NOTE}', 'en_US'),
 ('LOC_DB_BETTER_GOVERNORS_NAME', 'Better Governors', 'en_US'),
 
-('LOC_DB_BETTER_GREAT_SCIENTISTS_DESC', 'Great Scientists who trigger Eurekas to several Techs are replaced by Great Scientists who research one specific Tech in full, even if that Tech''s prerequisites haven''t been researched. Combat units on these granted technologies have been moved to other techs so that the Great Scientists don''t allow for too much of a military advantage. Finally, a handful of Great Scientists have been moved to earlier eras.{LOC_DB_GOLD_MOD_NOTE}{LOC_DB_XP2_NOTE}', 'en_US'),
+('LOC_DB_BETTER_GREAT_SCIENTISTS_DESC', 'Great Scientists who trigger Eurekas to several Techs are replaced by Great Scientists who research one specific Tech in full, even if that Tech''s prerequisites haven''t been researched. Combat units on these granted technologies have been moved to other techs so that the Great Scientists don''t allow for too much of a military advantage. Finally, a handful of Great Scientists have been moved to earlier eras.{LOC_DB_GOLD_MOD_NOTE}{LOC_DB_XP2_NOTE}{LOC_DB_BABYLON_NOTE}', 'en_US'),
 ('LOC_DB_BETTER_GREAT_SCIENTISTS_NAME', 'Better Great Scientists', 'en_US'),
 
 ('LOC_DB_BETTER_ROADS_DESC', 'Ancient Roads support bridges and all roads are slightly faster{LOC_DB_GOLD_MOD_NOTE}', 'en_US'),

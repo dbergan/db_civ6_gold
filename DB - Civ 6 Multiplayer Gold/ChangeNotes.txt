@@ -34,4 +34,5 @@ NEED TO TEST
 
 
 ===DONE===
-
+BETTER GREAT SCIENTISTS
+- bugfix: don't load if the player doesn't have Babylon DLC selected for the game
