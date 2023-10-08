@@ -1,4 +1,5 @@
--- DELETE FROM UnitUpgrades ; -- Not using this method so that city-states may still upgrade their units
+DELETE FROM UnitUpgrades ; -- Using this line means that city-states will not upgrade their units, but it stops player cities from automatically switching production
+
 DELETE FROM UnitCommands WHERE CommandType = 'UNITCOMMAND_UPGRADE' ;
 UPDATE GlobalParameters SET Value = 999 WHERE Name = 'EXPERIENCE_MAXIMUM_ONE_COMBAT' ;
 

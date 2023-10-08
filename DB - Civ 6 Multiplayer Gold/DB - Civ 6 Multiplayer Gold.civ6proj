@@ -1590,7 +1590,7 @@
     <Content Include="TreesHideUnits\DB_TreesHideUnits_Gameplay.sql">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="VERSION 33">
+    <Content Include="VERSION 34">
       <SubType>Content</SubType>
     </Content>
     <Content Include="WaterMillAddsFoodToAllFarms\DB_WaterMillAddsFoodToAllFarms.sql">
