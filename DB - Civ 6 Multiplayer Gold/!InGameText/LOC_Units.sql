@@ -5,9 +5,9 @@ INSERT OR REPLACE INTO LocalizedText
 
 ('LOC_FORMATION_CLASS_SUPPORT_NAME', 'Support{LOC_GOLD_LABEL}', 'en_US'),
 
--- Observation Balloons, Drones subject to movement costs
+-- Observation Balloons, Drones: add Range3 explanation
 ('LOC_UNIT_DRONE_DESCRIPTION', 'Atomic era support unit with sight of 5. Adds +5 [ICON_Bombard] Bombard Strength to Modern era or later siege units within 1 tile. Adds +1 [ICON_Range] Range to siege units within 1 tile. {DB_RANGE3_EXPLANATION} Drone movement ignores terrain costs.', 'en_US'),
-('LOC_UNIT_OBSERVATION_BALLOON_DESCRIPTION', 'Modern era support unit with sight of 3. Adds +1 [ICON_Range] Range to siege units within 1 tile. {DB_RANGE3_EXPLANATION} Observation Balloon movement ignores terrain costs.', 'en_US'),
+('LOC_UNIT_OBSERVATION_BALLOON_DESCRIPTION', 'Modern era support unit with sight of 3. Adds +1 [ICON_Range] Range to siege units within 1 tile. {DB_RANGE3_EXPLANATION}', 'en_US'),
 
 ('LOC_FORMATION_CLASS_LAND_COMBAT_NAME', 'Land Combat', 'en_US'),
 

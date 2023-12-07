@@ -32,9 +32,9 @@ UPDATE ModifierStrings SET Text = '+{1_AMOUNT} {LOC_PROMOTION_INTERCEPTOR_NAME} 
 INSERT OR IGNORE INTO RequirementSetRequirements (RequirementSetId, RequirementId) 
 SELECT REPLACE(ResourceType, 'RESOURCE', 'RESOURCE_IS'), 'REQUIRES_PLOT_HAS_FARM'  FROM Improvement_ValidResources WHERE ImprovementType = 'IMPROVEMENT_FARM' ;
 
--- Fix Drone and Observation Balloon ignoring terrain costs
-INSERT OR REPLACE INTO TypeTags (Type, Tag) VALUES ('ABILITY_IGNORE_TERRAIN_COST', 'CLASS_OBSERVATION') ;
-INSERT OR REPLACE INTO TypeTags (Type, Tag) VALUES ('ABILITY_IGNORE_CROSSING_RIVERS_COST', 'CLASS_OBSERVATION') ;
+-- Fix Drone ignoring terrain costs
+INSERT OR REPLACE INTO TypeTags (Type, Tag) VALUES ('ABILITY_IGNORE_TERRAIN_COST', 'CLASS_DRONE') ;
+INSERT OR REPLACE INTO TypeTags (Type, Tag) VALUES ('ABILITY_IGNORE_CROSSING_RIVERS_COST', 'CLASS_DRONE') ;
 
 -- Great Generals enhance units from any earlier era
 UPDATE RequirementSetRequirements SET RequirementId = 'DB_REQ_UNIT_IS_MEDIEVAL_OR_EARLIER'		WHERE RequirementId = 'AOE_REQUIRES_CLASSICAL_REQUIREMENTS' ;
