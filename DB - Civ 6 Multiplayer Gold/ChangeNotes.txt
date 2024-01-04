@@ -30,8 +30,9 @@ Integrate better war weariness statistics (its own report page?)
 Unit Table from Better Civilopedia? (https://steamcommunity.com/sharedfiles/filedetails/?id=1341630847)
 Music selector [When you click another civ leader icon (for diplomacy), you hear their music. There should be a way to do that outside of the diplomacy screen.]
 
+
 ==NEED TO TEST==
-UNOFFICIAL PATCH
-- Observation balloon no longer ignores terrain (historically, they would be tranported by wagon/truck and inflated on-site)
+
 
 ===DONE===
+

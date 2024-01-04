@@ -102,7 +102,7 @@
 		
 		
 		<Row Tag="LOC_NAME_DB_GOV_PROMOTION_BASE_GROWTH"><Text>{LOC_NAME_DB_GOVERNOR_GROWTH}</Text></Row>
-		<Row Tag="LOC_DESC_DB_GOV_PROMOTION_BASE_GROWTH"><Text>+2[ICON_Food]Food.</Text></Row>
+		<Row Tag="LOC_DESC_DB_GOV_PROMOTION_BASE_GROWTH"><Text>+4[ICON_Food]Food.</Text></Row>
 		
 		<Row Tag="LOC_NAME_DB_GOV_PROMOTION_GROWTH_RATE"><Text>Fertilizer</Text></Row>
 		<Row Tag="LOC_DESC_DB_GOV_PROMOTION_GROWTH_RATE"><Text>+25%[ICON_Food]Growth in this city.</Text></Row>

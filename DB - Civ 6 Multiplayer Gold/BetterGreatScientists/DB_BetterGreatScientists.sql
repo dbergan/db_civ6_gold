@@ -1,18 +1,24 @@
-DELETE FROM GreatPersonIndividualActionModifiers WHERE GreatPersonIndividualType IN (
-'GREAT_PERSON_INDIVIDUAL_HILDEGARD_OF_BINGEN', 	-- Theano					ancient		shipbuilding 
-'GREAT_PERSON_INDIVIDUAL_ARYABHATA', 			-- Marcus Aurelius Ammianos	ancient		construction 
-'GREAT_PERSON_INDIVIDUAL_IBN_KHALDUN',			-- Archimedes				classical	apprenticeship 
-'GREAT_PERSON_INDIVIDUAL_ZHANG_HENG', 			-- Ptolemy					medieval	cartography 
-'GREAT_PERSON_INDIVIDUAL_EUCLID', 				-- Johannes Gutenberg		medieval	printing 
-'GREAT_PERSON_INDIVIDUAL_OMAR_KHAYYAM', 		-- Richard Arkwright		renaissance	industrialization 
-'GREAT_PERSON_INDIVIDUAL_DMITRI_MENDELEEV', 	-- Eli Whitney				industrial	replacable parts 
-'GREAT_PERSON_INDIVIDUAL_ERWIN_SCHRODINGER', 	-- Nikola Tesla				industrial	electricity 
-'GREAT_PERSON_INDIVIDUAL_ABDUS_SALAM', 			-- Guglielmo Marconi		industrial	radio 
-'GREAT_PERSON_INDIVIDUAL_EMILIE_DU_CHATELET', 	-- Marie Curie				modern		nuclear fission 
+CREATE TABLE DB_Great_Scientists (Name VARCHAR, Era VARCHAR, Tech VARCHAR, MoveUnitsTo VARCHAR, PassiveScience INT) ;
 
-'GREAT_PERSON_INDIVIDUAL_JAMES_YOUNG', 			--							industrial	refining 
-'GREAT_PERSON_INDIVIDUAL_ALAN_TURING' 			--							modern		computers 
-) ;
+INSERT INTO DB_Great_Scientists (Name, Era, Tech,               MoveUnitsTo,            PassiveScience) VALUES 
+('HILDEGARD_OF_BINGEN', 'ANCIENT',      'SHIPBUILDING',         'CELESTIAL_NAVIGATION', 2),  -- Theano
+('ARYABHATA',           'ANCIENT',      'CONSTRUCTION',         '',                     2),  -- Marcus Aurelius Ammianos
+('IBN_KHALDUN',         'CLASSICAL',    'APPRENTICESHIP',       'MILITARY_TACTICS',     3),  -- Archimedes
+('ZHANG_HENG',          'MEDIEVAL',     'CARTOGRAPHY',          'MASS_PRODUCTION',      6),  -- Ptolemy
+('EUCLID',              'MEDIEVAL',     'PRINTING',             '',                     6),  -- Johannes Gutenberg
+('OMAR_KHAYYAM',        'RENAISSANCE',  'INDUSTRIALIZATION',    '',                     9),  -- Richard Arkwright
+('DMITRI_MENDELEEV',    'INDUSTRIAL',   'REPLACEABLE_PARTS',    'STEEL',                12), -- Eli Whitney
+('ERWIN_SCHRODINGER',   'INDUSTRIAL',   'ELECTRICITY',          'COMBUSTION',           12), -- Nikola Tesla
+('ABDUS_SALAM',         'INDUSTRIAL',   'RADIO',                '',                     12), -- Guglielmo Marconi
+('EMILIE_DU_CHATELET',  'MODERN',       'NUCLEAR_FISSION',      '',                     16), -- Marie Curie
+
+('JAMES_YOUNG',         'INDUSTRIAL',   'REFINING',             'STEEL',                12),
+('ALAN_TURING',         'MODERN',       'COMPUTERS',            '',                     16)
+;
+
+DELETE FROM GreatPersonIndividualActionModifiers WHERE GreatPersonIndividualType IN (
+    SELECT 'GREAT_PERSON_INDIVIDUAL_' || Name FROM DB_Great_Scientists
+    ) ;
 
 UPDATE GreatPersonIndividuals SET EraType = 'ERA_ANCIENT' WHERE GreatPersonIndividualType IN (
 'GREAT_PERSON_INDIVIDUAL_HILDEGARD_OF_BINGEN',	-- Theano
@@ -46,20 +52,8 @@ UPDATE GreatPersonIndividuals SET EraType = 'ERA_MODERN' WHERE GreatPersonIndivi
 ) ;
 
 UPDATE GreatPersonIndividuals SET ActionRequiresCompletedDistrictType = 'DISTRICT_CAMPUS' WHERE GreatPersonIndividualType IN (
-'GREAT_PERSON_INDIVIDUAL_HILDEGARD_OF_BINGEN', 	-- Theano					ancient		shipbuilding 
-'GREAT_PERSON_INDIVIDUAL_ARYABHATA', 			-- Marcus Aurelius Ammianos	ancient		construction 
-'GREAT_PERSON_INDIVIDUAL_IBN_KHALDUN',			-- Archimedes				classical	apprenticeship 
-'GREAT_PERSON_INDIVIDUAL_ZHANG_HENG', 			-- Ptolemy					medieval	cartography 
-'GREAT_PERSON_INDIVIDUAL_EUCLID', 				-- Johannes Gutenberg		medieval	printing 
-'GREAT_PERSON_INDIVIDUAL_OMAR_KHAYYAM', 		-- Richard Arkwright		renaissance	industrialization 
-'GREAT_PERSON_INDIVIDUAL_DMITRI_MENDELEEV', 	-- Eli Whitney				industrial	replacable parts 
-'GREAT_PERSON_INDIVIDUAL_ERWIN_SCHRODINGER', 	-- Nikola Tesla				industrial	electricity 
-'GREAT_PERSON_INDIVIDUAL_ABDUS_SALAM', 			-- Guglielmo Marconi		industrial	radio 
-'GREAT_PERSON_INDIVIDUAL_EMILIE_DU_CHATELET', 	-- Marie Curie				modern		nuclear fission 
-
-'GREAT_PERSON_INDIVIDUAL_JAMES_YOUNG', 			--							industrial	refining 
-'GREAT_PERSON_INDIVIDUAL_ALAN_TURING' 			--							modern		computers 
-) ;
+    SELECT 'GREAT_PERSON_INDIVIDUAL_' || Name FROM DB_Great_Scientists
+    ) ;
 
 UPDATE GreatPersonIndividuals SET ActionEffectTextOverride = NULL WHERE GreatPersonIndividualType IN (
 'GREAT_PERSON_INDIVIDUAL_EUCLID',
@@ -69,22 +63,8 @@ UPDATE GreatPersonIndividuals SET ActionEffectTextOverride = NULL WHERE GreatPer
 ) ;
 
 
-INSERT INTO GreatPersonIndividualActionModifiers
-(GreatPersonIndividualType,						ModifierId,								AttachmentTargetType) VALUES
-('GREAT_PERSON_INDIVIDUAL_HILDEGARD_OF_BINGEN',	'DB_MOD_GRANT_TECH_SHIPBUILDING',		'GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE'),
-('GREAT_PERSON_INDIVIDUAL_ARYABHATA',			'DB_MOD_GRANT_TECH_CONSTRUCTION',		'GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE'),
-('GREAT_PERSON_INDIVIDUAL_IBN_KHALDUN',			'DB_MOD_GRANT_TECH_APPRENTICESHIP',		'GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE'),
-('GREAT_PERSON_INDIVIDUAL_ZHANG_HENG',			'DB_MOD_GRANT_TECH_CARTOGRAPHY',		'GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE'),
-('GREAT_PERSON_INDIVIDUAL_EUCLID',				'DB_MOD_GRANT_TECH_PRINTING',			'GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE'),
-('GREAT_PERSON_INDIVIDUAL_OMAR_KHAYYAM',		'DB_MOD_GRANT_TECH_INDUSTRIALIZATION',	'GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE'),
-('GREAT_PERSON_INDIVIDUAL_DMITRI_MENDELEEV',	'DB_MOD_GRANT_TECH_REPLACEABLE_PARTS',	'GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE'),
-('GREAT_PERSON_INDIVIDUAL_ERWIN_SCHRODINGER',	'DB_MOD_GRANT_TECH_ELECTRICITY',		'GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE'),
-('GREAT_PERSON_INDIVIDUAL_ABDUS_SALAM',			'DB_MOD_GRANT_TECH_RADIO',				'GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE'),
-('GREAT_PERSON_INDIVIDUAL_EMILIE_DU_CHATELET',	'DB_MOD_GRANT_TECH_NUCLEAR_FISSION',	'GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE'),
-
-('GREAT_PERSON_INDIVIDUAL_JAMES_YOUNG',			'DB_MOD_GRANT_TECH_REFINING',			'GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE'),
-('GREAT_PERSON_INDIVIDUAL_ALAN_TURING',			'DB_MOD_GRANT_TECH_COMPUTERS',			'GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE')
-;
+INSERT INTO GreatPersonIndividualActionModifiers (GreatPersonIndividualType, ModifierId, AttachmentTargetType) 
+    SELECT 'GREAT_PERSON_INDIVIDUAL_' || Name, 'DB_MOD_GRANT_TECH_' || Tech, 'GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE' FROM DB_Great_Scientists ;
 
 UPDATE Units SET PrereqTech = 'TECH_CELESTIAL_NAVIGATION' WHERE PrereqTech = 'TECH_SHIPBUILDING' AND Combat > 0 ;	-- QUADRIREME
 UPDATE Units SET PrereqTech = 'TECH_MILITARY_TACTICS' WHERE PrereqTech = 'TECH_APPRENTICESHIP' AND Combat > 0 ;		-- MAN_AT_ARMS
@@ -92,3 +72,26 @@ UPDATE Units SET PrereqTech = 'TECH_MASS_PRODUCTION' WHERE PrereqTech = 'TECH_CA
 UPDATE Units SET PrereqTech = 'TECH_STEEL' WHERE PrereqTech = 'TECH_REPLACEABLE_PARTS' AND Combat > 0 ;				-- INFANTRY
 UPDATE Units SET PrereqTech = 'TECH_STEEL' WHERE PrereqTech = 'TECH_REFINING' AND Combat > 0 ;						-- BATTLESHIP
 UPDATE Units SET PrereqTech = 'TECH_COMBUSTION' WHERE PrereqTech = 'TECH_ELECTRICITY' AND Combat > 0 ;				-- SUBMARINE
+
+
+-- Passive yields
+INSERT INTO GreatPersonIndividualBirthModifiers (GreatPersonIndividualType, ModifierId) 
+    SELECT 'GREAT_PERSON_INDIVIDUAL_' || Name, 'DB_MOD_PASSIVE_SCIENCE_' || Name FROM DB_Great_Scientists ;
+
+INSERT INTO Modifiers (ModifierId, ModifierType)
+    SELECT 'DB_MOD_PASSIVE_SCIENCE_' || Name, 'DB_DM_OWNER_PLAYER_ATTACHES_MODIFIER' FROM DB_Great_Scientists ;
+
+INSERT INTO ModifierArguments (ModifierId, Name, Value)
+    SELECT 'DB_MOD_PASSIVE_SCIENCE_' || Name, 'ModifierId', 'DB_MOD_PASSIVE_SCIENCE_' || Name || '_2' FROM DB_Great_Scientists ;
+
+INSERT INTO ModifierStrings (ModifierId, Context, Text)
+    SELECT 'DB_MOD_PASSIVE_SCIENCE_' || Name, 'Summary', 'Your palace generates +' || PassiveScience || '[ICON_SCIENCE] Science per turn until activated.' FROM DB_Great_Scientists ;
+
+INSERT INTO Modifiers (ModifierId, ModifierType, SubjectRequirementSetId) 
+    SELECT 'DB_MOD_PASSIVE_SCIENCE_' || Name || '_2', 'DB_DM_PLAYER_CITIES_ADJUST_YIELD', 'DB_REQSET_CITY_HAS_PALACE' Name FROM DB_Great_Scientists ;
+
+INSERT INTO ModifierArguments (ModifierId, Name, Value)
+    SELECT 'DB_MOD_PASSIVE_SCIENCE_' || Name || '_2', 'YieldType', 'YIELD_SCIENCE' FROM DB_Great_Scientists ;
+
+INSERT INTO ModifierArguments (ModifierId, Name, Value)
+    SELECT 'DB_MOD_PASSIVE_SCIENCE_' || Name || '_2', 'Amount', PassiveScience FROM DB_Great_Scientists ;

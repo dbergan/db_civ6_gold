@@ -388,7 +388,7 @@ INSERT INTO ModifierArguments (ModifierId,				Name,					Value) VALUES
 */
 
 ('DB_MOD_GOV_PROMOTION_BASE_GROWTH',					'YieldType',			'YIELD_FOOD'),
-('DB_MOD_GOV_PROMOTION_BASE_GROWTH',					'Amount',				2),
+('DB_MOD_GOV_PROMOTION_BASE_GROWTH',					'Amount',				4),
 ('DB_MOD_GOV_PROMOTION_CITY_HOUSING',					'Amount',				10),
 ('DB_MOD_GOV_PROMOTION_CITY_AMENITIES',					'Amount',				5),
 ('DB_MOD_GOV_PROMOTION_OUTGOING_TRADE_DOMESTIC',		'YieldType',			'YIELD_FOOD'),

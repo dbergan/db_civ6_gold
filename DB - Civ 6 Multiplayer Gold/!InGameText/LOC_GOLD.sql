@@ -72,13 +72,21 @@ INSERT OR REPLACE INTO LocalizedText
 ('LOC_NAME_DB_ABILITY_BATTERING_RAM_IMPOTENT_TO_CASTLE', 'Advanced Walls', 'en_US'),
 ('LOC_DESC_DB_ABILITY_BATTERING_RAM_IMPOTENT_TO_CASTLE', 'Has no effect when next to a City Center with Medieval/Renaissance Walls. Can assist attacks against an Encampment with Medieval/Renaissance Walls when there is no Battering Ram adjacent to the City Center.', 'en_US'),
 
+('LOC_NAME_DB_ABILITY_LESS_EFFECTIVE_VS_LAND_UNITS', 	'Less Effective vs Land Units{LOC_GOLD_LABEL}', 'en_US'),
+('LOC_NAME_DB_ABILITY_LESS_EFFECTIVE_VS_WALLS', 		'Less Effective vs Cities{LOC_GOLD_LABEL}', 'en_US'),
+('LOC_DESC_DB_ABILITY_LESS_EFFECTIVE_VS_LAND_UNITS', 	'{DB_NEG_COLOR}-17[ENDCOLOR][ICON_Strength]Combat Strength when attacking land units', 'en_US'),
+('LOC_DESC_DB_ABILITY_LESS_EFFECTIVE_VS_WALLS', 		'{DB_NEG_COLOR}-17[ENDCOLOR][ICON_Strength]Combat Strength when attacking cities and encampments', 'en_US'),
+('LOC_COMBAT_DB_ABILITY_LESS_EFFECTIVE_VS_LAND_UNITS', 	'{DB_NEG_VALUE}Less Effective vs Land Units', 'en_US'), -- when archers, etc attack
+('LOC_COMBAT_DB_ABILITY_LESS_EFFECTIVE_VS_WALLS', 		'{DB_NEG_VALUE}Less Effective vs Cities', 'en_US'), -- when archers, etc attack
+
+
 ('LOC_DB_ABILITY_GAIN_EXP_FROM_ADJACENT_BATTLES_NAME', 'Gain XP From Observation{LOC_GOLD_LABEL}', 'en_US'),
 ('LOC_DB_ABILITY_GAIN_EXP_FROM_ADJACENT_BATTLES_DESC', '+1 XP when next to a defending unit or an enemy unit in a melee battle. +2 XP when next to both. (Isn''t affected by other XP modifiers like barracks/stables/lighthouse.)', 'en_US'),
 ('LOC_DB_ABILITY_GAIN_EXP_FROM_ADJACENT_BATTLES_SCOUTS_NAME', 'Scouts: more XP From Observation{LOC_GOLD_LABEL}', 'en_US'),
 ('LOC_DB_ABILITY_GAIN_EXP_FROM_ADJACENT_BATTLES_SCOUTS_DESC', '+1/+2 XP increases to +2/+4 XP. (Isn''t affected by other other XP modifiers.)', 'en_US'),
 
 ('LOC_DB_UNIT_SCOUT_DESC', 'Scouts are support units that cannot attack, but instead excel at gathering information. By default they can see through terrain features (like woods and rainforests), reveal stealth units, and are stealth units themselves. They receive experience by acquiring tribal villages, discovering natural wonders, and being adjacent to battles.{LOC_DB_SCOUT_PROMOTIONS}', 'en_US'),
-('LOC_DB_SCOUT_PROMOTIONS', '[NEWLINE][NEWLINE]Promotions include:[NEWLINE][ICON_Bullet]{LOC_DB_PROMOTION_DOUBLE_TIME_NAME} ({LOC_DB_PROMOTION_DOUBLE_TIME_DESC})[NEWLINE][ICON_Bullet]{LOC_DB_PROMOTION_SPYGLASS_NAME} ({LOC_DB_PROMOTION_SPYGLASS_DESC})[NEWLINE][ICON_Bullet]{LOC_DB_PROMOTION_SCOUT_PATHFINDER_NAME} ({LOC_DB_PROMOTION_SCOUT_PATHFINDER_DESC})[NEWLINE][ICON_Bullet]{LOC_DB_PROMOTION_SCOUT_DISGUISE_NAME} ({LOC_DB_PROMOTION_SCOUT_DISGUISE_DESC})[NEWLINE][ICON_Bullet]{LOC_DB_PROMOTION_ELUSIVE_NAME} ({LOC_DB_PROMOTION_ELUSIVE_DESC})[NEWLINE][ICON_Bullet]{LOC_DB_PROMOTION_SCOUT_TROOP_INTEL_NAME} ({LOC_DB_PROMOTION_SCOUT_TROOP_INTEL_DESC})', 'en_US'),
+('LOC_DB_SCOUT_PROMOTIONS', '[NEWLINE][NEWLINE]Promotions include:[NEWLINE][ICON_Bullet]{LOC_DB_PROMOTION_DOUBLE_TIME_NAME} ({LOC_DB_PROMOTION_DOUBLE_TIME_DESC})[NEWLINE][ICON_Bullet]{LOC_DB_PROMOTION_SPYGLASS_NAME} ({LOC_DB_PROMOTION_SPYGLASS_DESC})[NEWLINE][ICON_Bullet]{LOC_DB_PROMOTION_PATHFINDER_NAME} ({LOC_DB_PROMOTION_PATHFINDER_DESC})[NEWLINE][ICON_Bullet]{LOC_DB_PROMOTION_SCOUT_DISGUISE_NAME} ({LOC_DB_PROMOTION_SCOUT_DISGUISE_DESC})[NEWLINE][ICON_Bullet]{LOC_DB_PROMOTION_ELUSIVE_NAME} ({LOC_DB_PROMOTION_ELUSIVE_DESC})[NEWLINE][ICON_Bullet]{LOC_DB_PROMOTION_SCOUT_TROOP_INTEL_NAME} ({LOC_DB_PROMOTION_SCOUT_TROOP_INTEL_DESC})', 'en_US'),
 ('LOC_DB_PROMOTION_CLASS_LATER_RECON_NAME', 'Recon', 'en_US'),
 
 ('LOC_DB_PROMOTION_PATHFINDER_NAME', 'Pathfinder', 'en_US'),
